@@ -33,7 +33,7 @@ abstract class Mage_Eav_Model_Entity_Collection_Abstract extends Varien_Data_Col
     /**
      * Entity object to define collection's attributes
      *
-     * @var Mage_Eav_Model_Entity_Abstract
+     * @var Mage_Eav_Model_Entity_Abstract<T>
      */
     protected $_entity;
 
@@ -188,7 +188,7 @@ abstract class Mage_Eav_Model_Entity_Collection_Abstract extends Varien_Data_Col
     /**
      * Set entity to use for attributes
      *
-     * @param  Mage_Eav_Model_Entity_Abstract $entity
+     * @param  Mage_Eav_Model_Entity_Abstract<T>|string|Mage_Core_Model_Config_Element $entity
      * @return $this
      * @throws Mage_Core_Exception
      * @throws Mage_Eav_Exception
@@ -210,7 +210,7 @@ abstract class Mage_Eav_Model_Entity_Collection_Abstract extends Varien_Data_Col
     /**
      * Get collection's entity object
      *
-     * @return Mage_Eav_Model_Entity_Abstract
+     * @return Mage_Eav_Model_Entity_Abstract<T>
      * @throws Mage_Core_Exception
      */
     public function getEntity()

@@ -202,7 +202,7 @@ class Mage_Catalog_Model_Resource_Product_Collection extends Mage_Catalog_Model_
     /**
      * Initialize factory
      *
-     * @param Mage_Core_Model_Resource_Abstract $resource
+     * @param Mage_Core_Model_Resource_Abstract<Mage_Catalog_Model_Product> $resource
      */
     public function __construct($resource = null, array $args = [])
     {
