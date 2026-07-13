@@ -10,6 +10,7 @@
 /**
  * Catalog Layer Price Filter resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Catalog_Model_Layer_Filter_Price>
  * @package    Mage_Catalog
  */
 class Mage_Catalog_Model_Resource_Layer_Filter_Price extends Mage_Core_Model_Resource_Db_Abstract

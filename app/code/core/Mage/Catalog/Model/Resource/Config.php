@@ -10,7 +10,7 @@
 /**
  * Catalog Config Resource Model
  *
- * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Catalog_Model_Config>
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Abstract>
  * @package    Mage_Catalog
  */
 class Mage_Catalog_Model_Resource_Config extends Mage_Core_Model_Resource_Db_Abstract
