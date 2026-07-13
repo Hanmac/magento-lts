@@ -12,7 +12,7 @@
  *
  * @package    Mage_Catalog
  */
-abstract class Mage_Catalog_Model_Layer_Filter_Abstract extends Varien_Object
+abstract class Mage_Catalog_Model_Layer_Filter_Abstract extends  Varien_Object
 {
     /**
      * Request variable name with filter value
