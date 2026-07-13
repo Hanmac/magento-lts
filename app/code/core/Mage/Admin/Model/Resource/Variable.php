@@ -10,6 +10,7 @@
 /**
  * Resource model for manipulate system variables
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Admin_Model_Variable>
  * @package    Mage_Admin
  */
 class Mage_Admin_Model_Resource_Variable extends Mage_Core_Model_Resource_Db_Abstract

@@ -9,7 +9,8 @@
 
 /**
  * Product alert for back in abstract resource model
- *
+ * @template T of Mage_Core_Model_Abstract
+ * @extends Mage_ProductAlert_Model_Resource_Abstract<T>
  * @package    Mage_ProductAlert
  */
 abstract class Mage_ProductAlert_Model_Resource_Abstract extends Mage_Core_Model_Resource_Db_Abstract

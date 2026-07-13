@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * Item option resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Sales_Model_Quote_Item_Option>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Quote_Item_Option extends Mage_Core_Model_Resource_Db_Abstract

@@ -10,6 +10,7 @@
 /**
  * Core Website Resource Model
  *
+ * @extends Mage_Core_Model_Resource_Abstract<Mage_Core_Model_Website>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Website extends Mage_Core_Model_Resource_Db_Abstract

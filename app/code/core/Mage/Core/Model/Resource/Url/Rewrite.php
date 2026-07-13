@@ -10,6 +10,7 @@
 /**
  * Url rewrite resource model class
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Url_Rewrite>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Url_Rewrite extends Mage_Core_Model_Resource_Db_Abstract

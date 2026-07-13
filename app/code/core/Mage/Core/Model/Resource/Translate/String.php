@@ -10,6 +10,7 @@
 /**
  * String translate resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Translate_String>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Translate_String extends Mage_Core_Model_Resource_Db_Abstract

@@ -12,6 +12,7 @@ use Carbon\Carbon;
 /**
  * OAuth token resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Oauth_Model_Token>
  * @package    Mage_Oauth
  */
 class Mage_Oauth_Model_Resource_Token extends Mage_Core_Model_Resource_Db_Abstract

@@ -10,6 +10,7 @@
 /**
  * Invoice entity resource model
  *
+ * @extends Mage_Eav_Model_Entity_Abstract<Mage_Sales_Model_Order_Invoice>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Entity_Order_Invoice extends Mage_Eav_Model_Entity_Abstract

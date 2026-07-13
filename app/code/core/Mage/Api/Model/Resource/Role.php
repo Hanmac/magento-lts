@@ -10,6 +10,7 @@
 /**
  * ACL role resource
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Api_Model_Role>
  * @package    Mage_Api
  */
 class Mage_Api_Model_Resource_Role extends Mage_Core_Model_Resource_Db_Abstract

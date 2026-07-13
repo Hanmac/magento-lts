@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * Quote address resource model
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Quote_Address>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Quote_Address extends Mage_Sales_Model_Resource_Abstract

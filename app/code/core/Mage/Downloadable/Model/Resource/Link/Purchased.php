@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * Downloadable Product link purchased resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Downloadable_Model_Link_Purchased>
  * @package    Mage_Downloadable
  */
 class Mage_Downloadable_Model_Resource_Link_Purchased extends Mage_Core_Model_Resource_Db_Abstract

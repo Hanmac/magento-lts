@@ -10,6 +10,7 @@
 /**
  * Order status resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Sales_Model_Order_Status>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Status extends Mage_Core_Model_Resource_Db_Abstract

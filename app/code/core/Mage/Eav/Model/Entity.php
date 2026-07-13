@@ -10,6 +10,7 @@
 /**
  * EAV entity model
  *
+ * @extends Mage_Eav_Model_Entity_Abstract<Mage_Core_Model_Abstract>
  * @package    Mage_Eav
  */
 class Mage_Eav_Model_Entity extends Mage_Eav_Model_Entity_Abstract

@@ -10,6 +10,7 @@
 /**
  * Quote resource model
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Quote>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Quote extends Mage_Sales_Model_Resource_Abstract

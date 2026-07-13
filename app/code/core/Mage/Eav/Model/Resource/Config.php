@@ -10,6 +10,8 @@
 /**
  * Eav Resource Config model
  *
+ *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Eav_Model_Config>
  * @package    Mage_Eav
  */
 class Mage_Eav_Model_Resource_Config extends Mage_Core_Model_Resource_Db_Abstract

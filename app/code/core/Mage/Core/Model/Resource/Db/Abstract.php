@@ -10,6 +10,8 @@
 /**
  * Abstract resource model class
  *
+ * @template T of Mage_Core_Model_Abstract
+ * @extends Mage_Core_Model_Resource_Abstract<T>
  * @package    Mage_Core
  */
 abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Resource_Abstract
@@ -358,6 +360,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Load an object
      *
+     * @param T $object
      * @param  mixed       $value
      * @param  null|string $field field to load by (defaults to model id)
      * @return $this
@@ -388,9 +391,9 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Retrieve select object for load object data
      *
-     * @param  string                                 $field
-     * @param  mixed                                  $value
-     * @param  Mage_Core_Model_Abstract|Varien_Object $object
+     * @param  string $field
+     * @param  mixed  $value
+     * @param  T      $object
      * @return Varien_Db_Select
      * @throws Exception
      */
@@ -412,6 +415,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Save object object data
      *
+     * @param T $object
      * @return $this
      * @throws Exception
      * @throws Mage_Core_Exception
@@ -474,6 +478,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
      * Forced save object data
      * forced update If duplicate unique key data
      *
+     * @param T $object
      * @return $this
      * @throws Mage_Core_Exception
      * @throws Zend_Db_Exception
@@ -502,6 +507,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Delete the object
      *
+     * @param T $object
      * @return $this
      * @throws Exception
      */
@@ -548,6 +554,8 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
 
     /**
      * Un-serialize serializable object fields
+     *
+     * @param T $object
      */
     public function unserializeFields(Mage_Core_Model_Abstract $object)
     {
@@ -585,6 +593,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Prepare data for save
      *
+     * @param T $object
      * @return array
      * @throws Mage_Core_Exception
      */
@@ -597,7 +606,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
      * Check that model data fields that can be saved
      * has really changed comparing with origData
      *
-     * @param  Mage_Core_Model_Abstract $object
+     * @param T $object
      * @return bool
      * @throws Mage_Core_Exception
      * @throws Zend_Cache_Exception
@@ -691,6 +700,8 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
 
     /**
      * After load
+     *
+     * @param T $object
      */
     public function afterLoad(Mage_Core_Model_Abstract $object)
     {
@@ -700,6 +711,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Perform actions after object load
      *
+     * @param T $object
      * @return $this
      */
     protected function _afterLoad(Mage_Core_Model_Abstract $object)
@@ -710,6 +722,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Perform actions before object save
      *
+     * @param T $object
      * @return $this
      */
     protected function _beforeSave(Mage_Core_Model_Abstract $object)
@@ -720,6 +733,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Perform actions after object save
      *
+     * @param T $object
      * @return $this
      */
     protected function _afterSave(Mage_Core_Model_Abstract $object)
@@ -730,6 +744,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Perform actions before object delete
      *
+     * @param T $object
      * @return $this
      */
     protected function _beforeDelete(Mage_Core_Model_Abstract $object)
@@ -740,6 +755,7 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
     /**
      * Perform actions after object delete
      *
+     * @param T $object
      * @return $this
      */
     protected function _afterDelete(Mage_Core_Model_Abstract $object)
@@ -749,6 +765,8 @@ abstract class Mage_Core_Model_Resource_Db_Abstract extends Mage_Core_Model_Reso
 
     /**
      * Serialize serializable fields of the object
+     *
+     * @param T $object
      */
     protected function _serializeFields(Mage_Core_Model_Abstract $object)
     {

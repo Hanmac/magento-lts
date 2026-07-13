@@ -10,6 +10,7 @@
 /**
  * Template db resource
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Email_Template>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Email_Template extends Mage_Core_Model_Resource_Db_Abstract

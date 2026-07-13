@@ -10,6 +10,7 @@
 /**
  * Tag Relation resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Tag_Model_Tag_Relation>
  * @package    Mage_Tag
  */
 class Mage_Tag_Model_Resource_Tag_Relation extends Mage_Core_Model_Resource_Db_Abstract

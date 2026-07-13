@@ -10,6 +10,7 @@
 /**
  * Sales transaction resource model
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Order_Payment_Transaction>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Payment_Transaction extends Mage_Sales_Model_Resource_Order_Abstract

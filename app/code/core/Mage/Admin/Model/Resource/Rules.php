@@ -10,6 +10,7 @@
 /**
  * Admin rule resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Admin_Model_Rules>
  * @package    Mage_Admin
  */
 class Mage_Admin_Model_Resource_Rules extends Mage_Core_Model_Resource_Db_Abstract

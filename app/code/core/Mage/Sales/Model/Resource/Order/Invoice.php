@@ -10,6 +10,7 @@
 /**
  * Flat sales order invoice resource
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Order_Invoice>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Invoice extends Mage_Sales_Model_Resource_Order_Abstract

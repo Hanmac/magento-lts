@@ -10,6 +10,7 @@
 /**
  * Recurring payment profiles resource model
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Recurring_Profile>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Recurring_Profile extends Mage_Sales_Model_Resource_Abstract

@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * Schedule resource
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Cron_Model_Schedule>
  * @package    Mage_Cron
  */
 class Mage_Cron_Model_Resource_Schedule extends Mage_Core_Model_Resource_Db_Abstract

@@ -10,6 +10,7 @@
 /**
  * Core Resource Resource Model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Config>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Config extends Mage_Core_Model_Resource_Db_Abstract

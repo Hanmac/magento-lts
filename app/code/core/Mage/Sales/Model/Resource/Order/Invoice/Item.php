@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * Flat sales order invoice item resource
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Order_Invoice_Item>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Invoice_Item extends Mage_Sales_Model_Resource_Order_Abstract

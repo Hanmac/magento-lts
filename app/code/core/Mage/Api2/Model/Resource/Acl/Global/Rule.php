@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * API2 global ACL rule resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Api2_Model_Acl_Global_Rule>
  * @package    Mage_Api2
  */
 class Mage_Api2_Model_Resource_Acl_Global_Rule extends Mage_Core_Model_Resource_Db_Abstract

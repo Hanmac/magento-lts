@@ -10,6 +10,7 @@
 /**
  * Order payment entity resource model
  *
+ * @extends Mage_Eav_Model_Entity_Abstract<Mage_Sales_Model_Order_Payment>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Entity_Order_Payment extends Mage_Eav_Model_Entity_Abstract

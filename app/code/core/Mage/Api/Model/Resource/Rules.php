@@ -10,6 +10,7 @@
 /**
  * Rules resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Api_Model_Rules>
  * @package    Mage_Api
  */
 class Mage_Api_Model_Resource_Rules extends Mage_Core_Model_Resource_Db_Abstract

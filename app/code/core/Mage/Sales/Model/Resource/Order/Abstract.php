@@ -10,6 +10,7 @@
 /**
  * Flat sales resource abstract
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Abstract>
  * @package    Mage_Sales
  */
 abstract class Mage_Sales_Model_Resource_Order_Abstract extends Mage_Sales_Model_Resource_Abstract

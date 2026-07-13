@@ -10,6 +10,7 @@
 /**
  * Customer entity resource model
  *
+ * @extends Mage_Eav_Model_Entity_Abstract<Mage_Customer_Model_Customer>
  * @package    Mage_Customer
  */
 class Mage_Customer_Model_Resource_Customer extends Mage_Eav_Model_Entity_Abstract

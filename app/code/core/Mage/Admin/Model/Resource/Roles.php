@@ -10,6 +10,7 @@
 /**
  * Admin roles resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Admin_Model_Roles>
  * @package    Mage_Admin
  */
 class Mage_Admin_Model_Resource_Roles extends Mage_Core_Model_Resource_Db_Abstract

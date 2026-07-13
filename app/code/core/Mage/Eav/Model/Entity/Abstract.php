@@ -10,6 +10,8 @@
 /**
  * Entity/Attribute/Model - entity abstract
  *
+ * @template T of Mage_Core_Model_Abstract
+ * @extends Mage_Core_Model_Resource_Abstract<T>
  * @package    Mage_Eav
  */
 abstract class Mage_Eav_Model_Entity_Abstract extends Mage_Core_Model_Resource_Abstract implements Mage_Eav_Model_Entity_Interface
@@ -929,7 +931,7 @@ abstract class Mage_Eav_Model_Entity_Abstract extends Mage_Core_Model_Resource_A
     /**
      * Load entity's attributes into the object
      *
-     * @param  Mage_Core_Model_Abstract                  $object
+     * @param  T                  $object
      * @param  int                                       $entityId
      * @param  null|array                                $attributes
      * @return $this
@@ -1094,7 +1096,7 @@ abstract class Mage_Eav_Model_Entity_Abstract extends Mage_Core_Model_Resource_A
     /**
      * Save entity's attributes into the object's resource
      *
-     * @param  Mage_Core_Model_Abstract $object
+     * @param  T $object
      * @return $this
      * @throws Exception
      * @throws Mage_Core_Exception
@@ -1657,6 +1659,7 @@ abstract class Mage_Eav_Model_Entity_Abstract extends Mage_Core_Model_Resource_A
     /**
      * After Load Entity process
      *
+     * @param T $object
      * @return $this
      * @throws Mage_Eav_Model_Entity_Attribute_Exception
      */
@@ -1669,6 +1672,7 @@ abstract class Mage_Eav_Model_Entity_Abstract extends Mage_Core_Model_Resource_A
     /**
      * Before delete Entity process
      *
+     * @param T $object
      * @return $this
      * @throws Mage_Eav_Model_Entity_Attribute_Exception
      */
@@ -1681,6 +1685,7 @@ abstract class Mage_Eav_Model_Entity_Abstract extends Mage_Core_Model_Resource_A
     /**
      * After Save Entity process
      *
+     * @param T $object
      * @return $this
      * @throws Mage_Eav_Model_Entity_Attribute_Exception
      */
@@ -1693,6 +1698,7 @@ abstract class Mage_Eav_Model_Entity_Abstract extends Mage_Core_Model_Resource_A
     /**
      * Before Delete Entity process
      *
+     * @param T $object
      * @return $this
      * @throws Mage_Eav_Model_Entity_Attribute_Exception
      */
@@ -1705,6 +1711,7 @@ abstract class Mage_Eav_Model_Entity_Abstract extends Mage_Core_Model_Resource_A
     /**
      * After delete entity process
      *
+     * @param T $object
      * @return $this
      * @throws Mage_Eav_Model_Entity_Attribute_Exception
      */

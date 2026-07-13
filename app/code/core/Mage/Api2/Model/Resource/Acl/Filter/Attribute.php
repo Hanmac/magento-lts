@@ -10,6 +10,7 @@
 /**
  * API2 filter ACL attribute resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Api2_Model_Acl_Filter_Attribute>
  * @package    Mage_Api2
  */
 class Mage_Api2_Model_Resource_Acl_Filter_Attribute extends Mage_Core_Model_Resource_Db_Abstract

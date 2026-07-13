@@ -10,6 +10,7 @@
 /**
  * Flat sales order shipment resource
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Order_Shipment>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Shipment extends Mage_Sales_Model_Resource_Order_Abstract

@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * Order Tax Model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Sales_Model_Order_Tax>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Tax extends Mage_Core_Model_Resource_Db_Abstract

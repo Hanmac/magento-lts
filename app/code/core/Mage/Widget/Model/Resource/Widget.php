@@ -10,6 +10,7 @@
 /**
  * Preconfigured widget
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Widget_Model_Widget>
  * @package    Mage_Widget
  */
 class Mage_Widget_Model_Resource_Widget extends Mage_Core_Model_Resource_Db_Abstract

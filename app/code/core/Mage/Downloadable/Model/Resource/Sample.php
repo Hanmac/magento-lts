@@ -10,6 +10,7 @@
 /**
  * Downloadable Product  Samples resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Downloadable_Model_Sample>
  * @package    Mage_Downloadable
  */
 class Mage_Downloadable_Model_Resource_Sample extends Mage_Core_Model_Resource_Db_Abstract

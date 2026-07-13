@@ -10,6 +10,7 @@
 /**
  * Product entity resource model
  *
+ * @extends Mage_Catalog_Model_Resource_Abstract<Mage_Catalog_Model_Product>
  * @package    Mage_Catalog
  */
 class Mage_Catalog_Model_Resource_Product extends Mage_Catalog_Model_Resource_Abstract

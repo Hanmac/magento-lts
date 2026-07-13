@@ -10,6 +10,7 @@
 /**
  * Core layout update resource model
  *
+ * @extends Mage_Core_Model_Resource_Abstract<Mage_Core_Model_Layout>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Layout extends Mage_Core_Model_Resource_Db_Abstract

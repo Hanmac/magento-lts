@@ -10,6 +10,7 @@
 /**
  * Log Prepare Online visitors resource
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Log_Model_Visitor_Online>
  * @package    Mage_Log
  */
 class Mage_Log_Model_Resource_Visitor_Online extends Mage_Core_Model_Resource_Db_Abstract

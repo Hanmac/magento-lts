@@ -13,6 +13,7 @@ use Carbon\Carbon;
  * Log Attempts resource
  *
  * @package    Mage_Captcha
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Abstract>
  */
 class Mage_Captcha_Model_Resource_Log extends Mage_Core_Model_Resource_Db_Abstract
 {

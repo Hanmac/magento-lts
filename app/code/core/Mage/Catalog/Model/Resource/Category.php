@@ -10,6 +10,7 @@
 /**
  * Catalog category model
  *
+ * @extends Mage_Catalog_Model_Resource_Abstract<Mage_Catalog_Model_Category>
  * @package    Mage_Catalog
  */
 class Mage_Catalog_Model_Resource_Category extends Mage_Catalog_Model_Resource_Abstract

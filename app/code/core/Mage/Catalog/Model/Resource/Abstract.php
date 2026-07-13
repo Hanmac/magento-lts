@@ -14,6 +14,8 @@
  *
  * @method int  getStoreId()
  * @method bool getUseDataSharing()
+ *
+ * @extends Mage_Eav_Model_Entity_Abstract<Mage_Catalog_Model_Abstract>
  */
 abstract class Mage_Catalog_Model_Resource_Abstract extends Mage_Eav_Model_Entity_Abstract
 {

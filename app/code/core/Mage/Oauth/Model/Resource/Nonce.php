@@ -12,6 +12,7 @@ use Carbon\Carbon;
 /**
  * oAuth nonce resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Oauth_Model_Nonce>
  * @package    Mage_Oauth
  */
 class Mage_Oauth_Model_Resource_Nonce extends Mage_Core_Model_Resource_Db_Abstract

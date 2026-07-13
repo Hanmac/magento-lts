@@ -10,6 +10,7 @@
 /**
  * Tax Calculation Resource Model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Tax_Model_Calculation>
  * @package    Mage_Tax
  */
 class Mage_Tax_Model_Resource_Calculation extends Mage_Core_Model_Resource_Db_Abstract

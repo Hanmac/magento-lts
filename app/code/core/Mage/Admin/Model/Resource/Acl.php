@@ -10,6 +10,7 @@
 /**
  * Resource model for admin ACL
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Admin_Model_Acl>
  * @package    Mage_Admin
  */
 class Mage_Admin_Model_Resource_Acl extends Mage_Core_Model_Resource_Db_Abstract

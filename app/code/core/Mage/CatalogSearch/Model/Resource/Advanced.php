@@ -10,6 +10,7 @@
 /**
  * Advanced Catalog Search resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_CatalogSearch_Model_Advanced>
  * @package    Mage_CatalogSearch
  */
 class Mage_CatalogSearch_Model_Resource_Advanced extends Mage_Core_Model_Resource_Db_Abstract

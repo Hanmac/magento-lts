@@ -10,6 +10,7 @@
 /**
  * Bundle Option Resource Model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Bundle_Model_Option>
  * @package    Mage_Bundle
  */
 class Mage_Bundle_Model_Resource_Option extends Mage_Core_Model_Resource_Db_Abstract

@@ -10,6 +10,7 @@
 /**
  * AdminNotification Inbox model
  *
+ * @extends Mage_Core_Model_Resource_Abstract<Mage_AdminNotification_Model_Inbox>
  * @package    Mage_AdminNotification
  */
 class Mage_AdminNotification_Model_Resource_Inbox extends Mage_Core_Model_Resource_Db_Abstract

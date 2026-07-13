@@ -13,6 +13,7 @@ declare(strict_types=1);
  * ACL role resource
  *
  * @deprecated
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Admin_Model_Acl_Role>
  * @package    Mage_Admin
  */
 class Mage_Admin_Model_Resource_Acl_Role extends Mage_Core_Model_Resource_Db_Abstract

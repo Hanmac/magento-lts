@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * Flat sales order creditmemo item resource
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Order_Creditmemo_Item>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Creditmemo_Item extends Mage_Sales_Model_Resource_Order_Abstract

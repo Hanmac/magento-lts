@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * OAuth Application resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Oauth_Model_Consumer>
  * @package    Mage_Oauth
  */
 class Mage_Oauth_Model_Resource_Consumer extends Mage_Core_Model_Resource_Db_Abstract

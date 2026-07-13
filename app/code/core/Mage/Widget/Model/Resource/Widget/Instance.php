@@ -10,6 +10,7 @@
 /**
  * Widget Instance Resource Model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Widget_Model_Widget_Instance>
  * @package    Mage_Widget
  */
 class Mage_Widget_Model_Resource_Widget_Instance extends Mage_Core_Model_Resource_Db_Abstract

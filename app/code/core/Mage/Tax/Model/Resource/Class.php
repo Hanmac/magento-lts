@@ -10,6 +10,7 @@
 /**
  * Tax class resource
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Tax_Model_Class>
  * @package    Mage_Tax
  */
 class Mage_Tax_Model_Resource_Class extends Mage_Core_Model_Resource_Db_Abstract

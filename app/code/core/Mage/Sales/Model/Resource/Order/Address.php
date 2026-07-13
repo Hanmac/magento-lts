@@ -10,6 +10,7 @@
 /**
  * Flat sales order address resource
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Order_Address>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Address extends Mage_Sales_Model_Resource_Order_Abstract

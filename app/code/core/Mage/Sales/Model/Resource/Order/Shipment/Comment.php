@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * Flat sales order shipment comment resource
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Order_Shipment_Comment>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Shipment_Comment extends Mage_Sales_Model_Resource_Order_Abstract

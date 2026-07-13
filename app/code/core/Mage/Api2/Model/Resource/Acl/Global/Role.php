@@ -14,6 +14,7 @@
  *
  * @method int    getId()
  * @method string getRoleName()
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Api2_Model_Acl_Global_Role>
  */
 class Mage_Api2_Model_Resource_Acl_Global_Role extends Mage_Core_Model_Resource_Db_Abstract
 {

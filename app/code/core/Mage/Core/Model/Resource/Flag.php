@@ -12,6 +12,7 @@ declare(strict_types=1);
 /**
  * Flag model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Flag>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Flag extends Mage_Core_Model_Resource_Db_Abstract

@@ -10,6 +10,7 @@
 /**
  * Log Resource Model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Log_Model_Log>
  * @package    Mage_Log
  */
 class Mage_Log_Model_Resource_Log extends Mage_Core_Model_Resource_Db_Abstract

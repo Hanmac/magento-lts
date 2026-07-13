@@ -10,6 +10,7 @@
 /**
  * Custom variable resource model
  *
+ * @extends Mage_Core_Model_Resource_Abstract<Mage_Core_Model_Variable>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Variable extends Mage_Core_Model_Resource_Db_Abstract

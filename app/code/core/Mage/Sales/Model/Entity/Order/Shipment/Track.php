@@ -10,6 +10,7 @@
 /**
  * Shipment track resource model
  *
+ * @extends Mage_Eav_Model_Entity_Abstract<Mage_Sales_Model_Order_Shipment_Track>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Entity_Order_Shipment_Track extends Mage_Eav_Model_Entity_Abstract

@@ -10,6 +10,7 @@
 /**
  * Creditmemo entity resource model
  *
+ * @extends Mage_Eav_Model_Entity_Abstract<Mage_Sales_Model_Order_Creditmemo>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Entity_Order_Creditmemo extends Mage_Eav_Model_Entity_Abstract

@@ -10,6 +10,7 @@
 /**
  * Media library file image resource model
  *
+ * @extends Mage_Core_Model_Resource_Abstract<Mage_Media_Model_Image>
  * @package    Mage_Media
  */
 class Mage_Media_Model_File_Image extends Mage_Core_Model_Resource_Abstract

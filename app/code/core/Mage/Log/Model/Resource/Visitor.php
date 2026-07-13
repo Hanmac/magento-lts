@@ -10,6 +10,7 @@
 /**
  * Visitor log resource
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Log_Model_Visitor>
  * @package    Mage_Log
  */
 class Mage_Log_Model_Resource_Visitor extends Mage_Core_Model_Resource_Db_Abstract

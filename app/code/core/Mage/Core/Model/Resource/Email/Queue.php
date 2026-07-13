@@ -8,6 +8,7 @@
  */
 
 /**
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Email_Queue>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Email_Queue extends Mage_Core_Model_Resource_Db_Abstract

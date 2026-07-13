@@ -10,6 +10,7 @@
 /**
  * Quote entity resource model
  *
+ * @extends Mage_Eav_Model_Entity_Abstract<Mage_Sales_Model_Quote_Item>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Entity_Quote_Item extends Mage_Eav_Model_Entity_Abstract

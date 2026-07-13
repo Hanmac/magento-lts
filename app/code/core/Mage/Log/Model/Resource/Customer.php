@@ -10,6 +10,7 @@
 /**
  * Customer log resource
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Log_Model_Customer>
  * @package    Mage_Log
  */
 class Mage_Log_Model_Resource_Customer extends Mage_Core_Model_Resource_Db_Abstract

@@ -10,6 +10,7 @@
 /**
  * Cms page mysql resource
  *
+ * @extends Mage_Core_Model_Resource_Abstract<Mage_Cms_Model_Page>
  * @package    Mage_Cms
  */
 class Mage_Cms_Model_Resource_Page extends Mage_Core_Model_Resource_Db_Abstract

@@ -10,6 +10,7 @@
 /**
  * Product alert for changed price resource model
  *
+ * @extends Mage_ProductAlert_Model_Resource_Abstract<Mage_ProductAlert_Model_Price>
  * @package    Mage_ProductAlert
  */
 class Mage_ProductAlert_Model_Resource_Price extends Mage_ProductAlert_Model_Resource_Abstract

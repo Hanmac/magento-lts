@@ -10,6 +10,7 @@
 /**
  * Flat sales order payment resource
  *
+ * @extends Mage_Sales_Model_Resource_Abstract<Mage_Sales_Model_Order_Payment>
  * @package    Mage_Sales
  */
 class Mage_Sales_Model_Resource_Order_Payment extends Mage_Sales_Model_Resource_Order_Abstract

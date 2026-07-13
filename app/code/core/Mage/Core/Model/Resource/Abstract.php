@@ -10,6 +10,7 @@
 /**
  * Abstract resource model
  *
+ * @template T of Varien_Object
  * @package    Mage_Core
  */
 abstract class Mage_Core_Model_Resource_Abstract
@@ -148,6 +149,7 @@ abstract class Mage_Core_Model_Resource_Abstract
     /**
      * Serialize specified field in an object
      *
+     * @param T $object
      * @param  string $field
      * @param  mixed  $defaultValue
      * @param  bool   $unsetEmpty
@@ -176,6 +178,7 @@ abstract class Mage_Core_Model_Resource_Abstract
     /**
      * Unserialize Varien_Object field in an object
      *
+     * @param T $object
      * @param string $field
      * @param mixed  $defaultValue
      */
@@ -192,6 +195,7 @@ abstract class Mage_Core_Model_Resource_Abstract
     /**
      * Prepare data for passed table
      *
+     * @param T $object
      * @param  string $table
      * @return array
      */

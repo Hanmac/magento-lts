@@ -10,6 +10,7 @@
 /**
  * Core Cache resource model
  *
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Cache>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Cache extends Mage_Core_Model_Resource_Db_Abstract
