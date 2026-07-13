@@ -10,7 +10,7 @@
 /**
  * Catalog url rewrite resource model
  *
- * @extends Mage_Core_Model_Resource_Abstract<Mage_Catalog_Model_Url>
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Catalog_Model_Url>
  * @package    Mage_Catalog
  */
 class Mage_Catalog_Model_Resource_Url extends Mage_Core_Model_Resource_Db_Abstract

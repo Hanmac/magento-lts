@@ -12,7 +12,7 @@ declare(strict_types=1);
 /**
  * Language resource model
  *
- * @extends Mage_Core_Model_Resource_Abstract<Mage_Core_Model_Language>
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Language>
  * @package    Mage_Core
  */
 class Mage_Core_Model_Resource_Language extends Mage_Core_Model_Resource_Db_Abstract

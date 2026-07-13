@@ -10,7 +10,7 @@
 /**
  * Customer group resource model
  *
- * @extends Mage_Core_Model_Resource_Abstract<Mage_Customer_Model_Group>
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Customer_Model_Group>
  * @package    Mage_Customer
  */
 class Mage_Customer_Model_Resource_Group extends Mage_Core_Model_Resource_Db_Abstract

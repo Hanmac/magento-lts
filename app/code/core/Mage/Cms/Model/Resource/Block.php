@@ -10,7 +10,7 @@
 /**
  * CMS block model
  *
- * @extends Mage_Core_Model_Resource_Abstract<Mage_Cms_Model_Block>
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Cms_Model_Block>
  * @package    Mage_Cms
  */
 class Mage_Cms_Model_Resource_Block extends Mage_Core_Model_Resource_Db_Abstract

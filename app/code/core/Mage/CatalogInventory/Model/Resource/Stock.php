@@ -10,7 +10,7 @@
 /**
  * Stock resource model
  *
- * @extends Mage_Core_Model_Resource_Abstract<Mage_CatalogInventory_Model_Stock>
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_CatalogInventory_Model_Stock>
  * @package    Mage_CatalogInventory
  */
 class Mage_CatalogInventory_Model_Resource_Stock extends Mage_Core_Model_Resource_Db_Abstract
