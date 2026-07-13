@@ -35,7 +35,7 @@ abstract class Mage_Core_Model_Resource_Db_Collection_Abstract extends Varien_Da
     /**
      * Resource instance
      *
-     * @var Mage_Core_Model_Resource_Db_Abstract|Mage_Core_Model_Resource_Db_Collection_Abstract
+     * @var Mage_Core_Model_Resource_Db_Abstract<T>|Mage_Core_Model_Resource_Db_Collection_Abstract<T>
      */
     protected $_resource = null;
 
@@ -106,7 +106,7 @@ abstract class Mage_Core_Model_Resource_Db_Collection_Abstract extends Varien_Da
     /**
      * Collection constructor
      *
-     * @param  Mage_Core_Model_Resource_Db_Abstract $resource
+     * @param  Mage_Core_Model_Resource_Db_Abstract<T> $resource
      * @throws Mage_Core_Exception
      * @throws Zend_Exception
      */
@@ -458,7 +458,7 @@ abstract class Mage_Core_Model_Resource_Db_Collection_Abstract extends Varien_Da
     /**
      * Get resource instance
      *
-     * @return Mage_Core_Model_Resource_Db_Abstract
+     * @return Mage_Core_Model_Resource_Db_Abstract<T>
      */
     public function getResource()
     {

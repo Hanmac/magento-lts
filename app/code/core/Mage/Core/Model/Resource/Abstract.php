@@ -195,7 +195,7 @@ abstract class Mage_Core_Model_Resource_Abstract
     /**
      * Prepare data for passed table
      *
-     * @param T $object
+     * @param T|Varien_Object $object
      * @param  string $table
      * @return array
      */

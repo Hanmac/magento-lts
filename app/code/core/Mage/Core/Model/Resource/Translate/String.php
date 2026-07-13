@@ -46,9 +46,9 @@ class Mage_Core_Model_Resource_Translate_String extends Mage_Core_Model_Resource
     /**
      * Retrieve select for load
      *
-     * @param  String                   $field
-     * @param  String                   $value
-     * @param  Mage_Core_Model_Abstract $object
+     * @param  String                           $field
+     * @param  mixed                            $value
+     * @param  Mage_Core_Model_Translate_String $object
      * @return Varien_Db_Select
      */
     #[Override]

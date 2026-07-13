@@ -124,7 +124,7 @@ class Mage_Core_Model_Resource_Store extends Mage_Core_Model_Resource_Db_Abstrac
      *
      * @return $this
      */
-    protected function _changeGroup(Mage_Core_Model_Abstract $model)
+    protected function _changeGroup(Mage_Core_Model_Store $model)
     {
         if ($model->getOriginalGroupId() && $model->getGroupId() != $model->getOriginalGroupId()) {
             $adapter = $this->_getReadAdapter();
@@ -146,9 +146,9 @@ class Mage_Core_Model_Resource_Store extends Mage_Core_Model_Resource_Db_Abstrac
     /**
      * Retrieve select object for load object data
      *
-     * @param  string                   $field
-     * @param  mixed                    $value
-     * @param  Mage_Core_Model_Abstract $object
+     * @param  string                $field
+     * @param  mixed                 $value
+     * @param  Mage_Core_Model_Store $object
      * @return Varien_Db_Select
      */
     #[Override]
