@@ -54,7 +54,7 @@ abstract class Mage_Core_Model_Abstract extends Varien_Object
     /**
      * Resource model instance
      *
-     * @var Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Abstract>
+     * @var Mage_Core_Model_Resource_Db_Abstract<self>
      */
     protected $_resource;
 
@@ -168,7 +168,7 @@ abstract class Mage_Core_Model_Abstract extends Varien_Object
     /**
      * Get resource instance
      *
-     * @return Mage_Core_Model_Resource_Db_Abstract|object
+     * @return Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Abstract>|object
      * @throws Mage_Core_Exception
      */
     protected function _getResource()
@@ -251,7 +251,7 @@ abstract class Mage_Core_Model_Abstract extends Varien_Object
     /**
      * Get collection instance
      *
-     * @return Mage_Core_Model_Resource_Db_Collection_Abstract
+     * @return Mage_Core_Model_Resource_Db_Collection_Abstract<self>
      * @throws Mage_Core_Exception
      */
     public function getResourceCollection()
@@ -269,7 +269,7 @@ abstract class Mage_Core_Model_Abstract extends Varien_Object
     }
 
     /**
-     * @return false|Mage_Core_Model_Resource_Db_Collection_Abstract
+     * @return false|Mage_Core_Model_Resource_Db_Collection_Abstract<self>
      * @throws Mage_Core_Exception
      */
     public function getCollection()
@@ -610,7 +610,7 @@ abstract class Mage_Core_Model_Abstract extends Varien_Object
     /**
      * Retrieve model resource
      *
-     * @return Mage_Core_Model_Resource_Db_Abstract<Mage_Core_Model_Abstract
+     * @return Mage_Core_Model_Resource_Db_Abstract<self>
      * @throws Mage_Core_Exception
      */
     public function getResource()

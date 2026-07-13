@@ -35,7 +35,7 @@ abstract class Mage_Core_Model_Resource_Db_Collection_Abstract extends Varien_Da
     /**
      * Resource instance
      *
-     * @var Mage_Core_Model_Resource_Db_Abstract<T>|Mage_Core_Model_Resource_Db_Collection_Abstract<T>
+     * @var Mage_Core_Model_Resource_Db_Abstract<T>|Mage_Core_Model_Resource_Db_Collection_Abstract<T>|null
      */
     protected $_resource = null;
 
@@ -463,7 +463,10 @@ abstract class Mage_Core_Model_Resource_Db_Collection_Abstract extends Varien_Da
     public function getResource()
     {
         if (is_null($this->_resource) || $this->_resource === []) {
-            $this->_resource = Mage::getResourceModel($this->getResourceModelName());
+            $model = Mage::getResourceModel($this->getResourceModelName());
+            if ($model !== false) {
+                $this->_resource = $model;
+            }
         }
 
         return $this->_resource;
