@@ -15,6 +15,7 @@
  * @method Mage_Catalog_Model_Resource_Product_Collection getCollection()
  * @method bool                                           getIsCollapsed()
  * @method $this                                          setIsCollapsed(bool $value)
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Catalog_Model_Product>
  */
 class Mage_Adminhtml_Block_Sales_Order_Create_Search_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

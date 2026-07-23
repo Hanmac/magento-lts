@@ -20,6 +20,7 @@ use Mage_Adminhtml_Block_Widget_Grid_Massaction_Abstract as MassAction;
  * @method $this setCustomerId(int $value)
  * @method $this setMassactionIdFieldOnlyIndexValue(bool $value)
  * @method $this setProductId(int $value)
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Catalog_Model_Product>
  */
 class Mage_Adminhtml_Block_Review_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

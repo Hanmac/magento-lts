@@ -11,6 +11,7 @@
  * Order Credit Memos grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sales_Model_Order_Creditmemo>
  */
 class Mage_Adminhtml_Block_Sales_Order_View_Tab_Creditmemos extends Mage_Adminhtml_Block_Widget_Grid implements Mage_Adminhtml_Block_Widget_Tab_Interface
 {

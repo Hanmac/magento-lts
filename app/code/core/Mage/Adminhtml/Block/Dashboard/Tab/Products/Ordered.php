@@ -11,6 +11,7 @@
  * Adminhtml dashboard most ordered products grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Dashboard_Grid<>
  */
 class Mage_Adminhtml_Block_Dashboard_Tab_Products_Ordered extends Mage_Adminhtml_Block_Dashboard_Grid
 {

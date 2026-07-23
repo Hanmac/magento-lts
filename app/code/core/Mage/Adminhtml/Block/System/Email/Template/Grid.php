@@ -11,6 +11,7 @@
  * Adminhtml  system templates grid block
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Core_Model_Email_Template>
  */
 class Mage_Adminhtml_Block_System_Email_Template_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -36,6 +37,9 @@ class Mage_Adminhtml_Block_System_Email_Template_Grid extends Mage_Adminhtml_Blo
     #[Override]
     protected function _prepareCollection()
     {
+        /**
+         * @var Mage_Core_Model_Resource_Email_Template_Collection $collection
+         */
         $collection = Mage::getResourceSingleton('core/email_template_collection');
         $this->setCollection($collection);
 

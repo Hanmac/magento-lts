@@ -11,6 +11,7 @@
  * Roles grid block
  *
  * @package    Mage_Api2
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Api2_Model_Acl_Global_Role>
  */
 class Mage_Api2_Block_Adminhtml_Roles_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Sales_Model_Resource_Order_Payment_Transaction_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sales_Model_Order_Payment_Transaction>
  */
 class Mage_Adminhtml_Block_Sales_Transactions_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -127,7 +128,7 @@ class Mage_Adminhtml_Block_Sales_Transactions_Grid extends Mage_Adminhtml_Block_
 
     /**
      * Retrieve row url
-     *
+     * @param Mage_Sales_Model_Order_Payment_Transaction $row
      * @return string
      */
     #[Override]

@@ -11,6 +11,7 @@
  * Adminhtml customer view wishlist block
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Wishlist_Model_Item>
  */
 class Mage_Adminhtml_Block_Customer_Edit_Tab_View_Wishlist extends Mage_Adminhtml_Block_Widget_Grid
 {

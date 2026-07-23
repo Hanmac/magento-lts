@@ -11,6 +11,7 @@
  * Convert profiles grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Dataflow_Model_Profile>
  */
 class Mage_Adminhtml_Block_System_Convert_Gui_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -99,6 +100,9 @@ class Mage_Adminhtml_Block_System_Convert_Gui_Grid extends Mage_Adminhtml_Block_
         return parent::_prepareColumns();
     }
 
+    /**
+     * @param Mage_Dataflow_Model_Profile $row
+     */
     #[Override]
     public function getRowUrl($row)
     {

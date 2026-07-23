@@ -13,6 +13,7 @@ use Mage_Adminhtml_Block_Widget_Grid_Massaction_Abstract as MassAction;
  * Adminhtml sales orders grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sales_Model_Order_Shipment>
  */
 class Mage_Adminhtml_Block_Sales_Shipment_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -41,6 +42,9 @@ class Mage_Adminhtml_Block_Sales_Shipment_Grid extends Mage_Adminhtml_Block_Widg
     #[Override]
     protected function _prepareCollection()
     {
+        /**
+         * @var Mage_Sales_Model_Resource_Order_Shipment_Grid_Collection $collection
+         */
         $collection = Mage::getResourceModel($this->_getCollectionClass());
         $this->setCollection($collection);
         return parent::_prepareCollection();

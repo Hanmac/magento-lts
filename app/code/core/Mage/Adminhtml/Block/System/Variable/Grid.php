@@ -11,6 +11,7 @@
  * Custom Variable Grid Container
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Core_Model_Variable>
  */
 class Mage_Adminhtml_Block_System_Variable_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

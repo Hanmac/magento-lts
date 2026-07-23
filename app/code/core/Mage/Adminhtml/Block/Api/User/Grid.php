@@ -11,6 +11,7 @@
  * Adminhtml permissions user grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Api_Model_User>
  */
 class Mage_Adminhtml_Block_Api_User_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

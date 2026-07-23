@@ -11,6 +11,7 @@
  * Adminhtml customer grid block
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Log_Model_Visitor_Online>
  */
 class Mage_Adminhtml_Block_Customer_Online_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

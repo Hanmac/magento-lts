@@ -17,6 +17,7 @@
  * @method bool                                                        getSkipGenerateContent()
  * @method $this                                                       setIsReadonly(bool $value)
  * @method $this                                                       setSkipGenerateContent(bool $value)
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Catalog_Model_Product>
  */
 class Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Super_Group extends Mage_Adminhtml_Block_Widget_Grid implements Mage_Adminhtml_Block_Widget_Tab_Interface
 {

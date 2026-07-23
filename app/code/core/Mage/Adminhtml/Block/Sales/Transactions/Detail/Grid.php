@@ -11,6 +11,7 @@
  * Adminhtml transaction details grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Varien_Object>
  */
 class Mage_Adminhtml_Block_Sales_Transactions_Detail_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

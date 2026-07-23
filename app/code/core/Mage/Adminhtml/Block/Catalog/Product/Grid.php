@@ -15,6 +15,7 @@ use Mage_Adminhtml_Block_Widget_Grid_Massaction_Abstract as MassAction;
  * @package    Mage_Adminhtml
  *
  * @method Mage_Catalog_Model_Resource_Product_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Catalog_Model_Product>
  */
 class Mage_Adminhtml_Block_Catalog_Product_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

@@ -15,6 +15,8 @@
  * @method Mage_Tag_Model_Resource_Customer_Collection getCollection()
  * @method int|Mage_Customer_Model_Customer            getCustomerId()
  * @method $this                                       setCustomerId(int $value)
+ *
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Customer_Model_Customer>
  */
 class Mage_Adminhtml_Block_Customer_Edit_Tab_Tag extends Mage_Adminhtml_Block_Widget_Grid
 {

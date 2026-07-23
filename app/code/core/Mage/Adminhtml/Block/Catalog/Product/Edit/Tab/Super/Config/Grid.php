@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Catalog_Model_Resource_Product_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Catalog_Model_Product>
  */
 class Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Super_Config_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -385,10 +386,10 @@ class Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Super_Config_Grid extends Ma
 
         $disableMultiSelect = false;
         $ids = [];
-        foreach ($this->_collection as $item) {
+        foreach ($this->getCollection() as $item) {
             $ids[] = $item->getId();
             $needleAttributeValues = $this->_retrieveRowData($item);
-            foreach ($this->_collection as $item2) {
+            foreach ($this->getCollection() as $item2) {
                 // Skip the data if already checked
                 if (in_array($item2->getId(), $ids)) {
                     continue;

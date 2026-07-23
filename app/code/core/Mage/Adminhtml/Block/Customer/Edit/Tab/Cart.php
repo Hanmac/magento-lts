@@ -12,6 +12,8 @@
  *
  * @package    Mage_Adminhtml
  *
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sales_Model_Quote_Item>
+ *
  * @method int getWebsiteId()
  */
 class Mage_Adminhtml_Block_Customer_Edit_Tab_Cart extends Mage_Adminhtml_Block_Widget_Grid

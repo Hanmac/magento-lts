@@ -11,6 +11,7 @@
  * Sign up for an alert when the product price changes grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Customer_Model_Customer>
  */
 class Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Alerts_Price extends Mage_Adminhtml_Block_Widget_Grid
 {

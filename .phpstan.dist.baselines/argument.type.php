@@ -252,16 +252,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $collection of method Mage_Adminhtml_Block_Widget_Grid::setCollection() expects Varien_Data_Collection, Mage_Core_Model_Resource_Db_Collection_Abstract|false given.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Creditmemo/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $collection of method Mage_Adminhtml_Block_Widget_Grid::setCollection() expects Varien_Data_Collection, Mage_Core_Model_Resource_Db_Collection_Abstract|false given.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Invoice/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $customerId of method Mage_Wishlist_Model_Resource_Wishlist_Collection::filterByCustomerId() expects int, int|null given.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Items/Grid.php',
@@ -292,11 +282,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Sidebar/Pviewed.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $collection of method Mage_Adminhtml_Block_Widget_Grid::setCollection() expects Varien_Data_Collection, Mage_Core_Model_Resource_Db_Collection_Abstract|false given.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Order/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $shipmentId of method Mage_Sales_Model_Resource_Order_Shipment_Item_Collection::setShipmentFilter() expects int, int<min, -1>|int<1, max>|string given.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Order/Shipment/Packaging/Grid.php',
@@ -322,11 +307,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Order/View/Info.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $collection of method Mage_Adminhtml_Block_Widget_Grid::setCollection() expects Varien_Data_Collection, Mage_Core_Model_Resource_Db_Collection_Abstract|false given.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Shipment/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $object_or_class of function method_exists expects object|string, object|false given.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/System/Config/Form.php',
@@ -345,11 +325,6 @@ $ignoreErrors[] = [
     'rawMessage' => 'Parameter #3 $length of function substr expects int|null, int|false given.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/System/Config/Form/Field/Select/Allowspecific.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $collection of method Mage_Adminhtml_Block_Widget_Grid::setCollection() expects Varien_Data_Collection, object given.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/System/Email/Template/Grid.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $storeId of method Mage_Core_Model_App_Emulation::startEnvironmentEmulation() expects int, int|null given.',

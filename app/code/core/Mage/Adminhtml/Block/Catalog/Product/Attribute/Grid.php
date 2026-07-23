@@ -11,6 +11,7 @@
  * Product attributes grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Eav_Block_Adminhtml_Attribute_Grid_Abstract<Mage_Catalog_Model_Entity_Attribute>
  */
 class Mage_Adminhtml_Block_Catalog_Product_Attribute_Grid extends Mage_Eav_Block_Adminhtml_Attribute_Grid_Abstract
 {

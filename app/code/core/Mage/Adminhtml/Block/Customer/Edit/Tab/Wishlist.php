@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Wishlist_Model_Resource_Item_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Wishlist_Model_Item>
  */
 class Mage_Adminhtml_Block_Customer_Edit_Tab_Wishlist extends Mage_Adminhtml_Block_Widget_Grid
 {

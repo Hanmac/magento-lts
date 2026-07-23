@@ -13,6 +13,8 @@ declare(strict_types=1);
  * Adminhtml dashboard grid
  *
  * @package    Mage_Adminhtml
+ * @template T of Varien_Object
+ * @extends Mage_Adminhtml_Block_Widget_Grid<T>
  */
 class Mage_Adminhtml_Block_Dashboard_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

@@ -11,6 +11,7 @@
  * Adminhtml customer orders grid block
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Customer_Model_Customer>
  */
 class Mage_Adminhtml_Block_Customer_Edit_Tab_Tags extends Mage_Adminhtml_Block_Widget_Grid
 {

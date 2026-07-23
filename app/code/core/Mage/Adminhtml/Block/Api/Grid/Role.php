@@ -11,6 +11,7 @@
  * roles grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Api_Model_Roles>
  */
 class Mage_Adminhtml_Block_Api_Grid_Role extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -69,6 +70,10 @@ class Mage_Adminhtml_Block_Api_Grid_Role extends Mage_Adminhtml_Block_Widget_Gri
         return $this->getUrl('*/*/roleGrid', ['_current' => true]);
     }
 
+    /**
+     * @param Mage_Api_Model_Roles $row
+     * @return string
+     */
     #[Override]
     public function getRowUrl($row)
     {

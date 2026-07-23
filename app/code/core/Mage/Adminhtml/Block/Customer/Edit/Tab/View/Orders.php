@@ -11,6 +11,7 @@
  * Adminhtml customer recent orders grid block
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sales_Model_Order>
  */
 class Mage_Adminhtml_Block_Customer_Edit_Tab_View_Orders extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -108,7 +109,7 @@ class Mage_Adminhtml_Block_Customer_Edit_Tab_View_Orders extends Mage_Adminhtml_
     }
 
     /**
-     * @param  Varien_Object $row
+     * @param  Mage_Sales_Model_Order $row
      * @return string
      */
     #[Override]

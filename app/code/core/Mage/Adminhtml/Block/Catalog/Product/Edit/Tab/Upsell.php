@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Catalog_Model_Resource_Product_Link_Product_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Catalog_Model_Product>
  */
 class Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Upsell extends Mage_Adminhtml_Block_Widget_Grid
 {

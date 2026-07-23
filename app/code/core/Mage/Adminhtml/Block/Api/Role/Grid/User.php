@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Api_Model_Resource_Roles_User_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Api_Model_User>
  */
 class Mage_Adminhtml_Block_Api_Role_Grid_User extends Mage_Adminhtml_Block_Widget_Grid
 {

@@ -11,6 +11,7 @@ use Mage_Adminhtml_Block_Widget_Grid_Massaction_Abstract as MassAction;
 
 /**
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_CatalogSearch_Model_Query>
  */
 class Mage_Adminhtml_Block_Catalog_Search_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

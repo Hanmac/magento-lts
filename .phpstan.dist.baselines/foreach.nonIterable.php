@@ -7,11 +7,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/Mage.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Argument of an invalid type Varien_Data_Collection|null supplied for foreach, only iterables are supported.',
-    'count' => 2,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Super/Config/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Argument of an invalid type array|string supplied for foreach, only iterables are supported.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Product/Frontend/Product/Watermark.php',

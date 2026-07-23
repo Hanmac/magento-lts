@@ -12,6 +12,8 @@
  *
  * @package    Mage_Adminhtml
  *
+ * @template T of Varien_Object
+ *
  * @method string getCheckboxCheckCallback()
  * @method string getGridHeader()
  * @method bool   getNoFilterMassactionColumn()
@@ -59,7 +61,7 @@ class Mage_Adminhtml_Block_Widget_Grid extends Mage_Adminhtml_Block_Widget
     /**
      * Collection object
      *
-     * @var null|Mage_Eav_Model_Resource_Entity_Attribute_Collection|Mage_Reports_Model_Grouped_Collection|Varien_Data_Collection|Varien_Data_Collection_Db
+     * @var null|Mage_Eav_Model_Resource_Entity_Attribute_Collection|Mage_Reports_Model_Grouped_Collection|Varien_Data_Collection<T>|Varien_Data_Collection_Db<T>
      */
     protected $_collection = null;
 
@@ -329,7 +331,7 @@ class Mage_Adminhtml_Block_Widget_Grid extends Mage_Adminhtml_Block_Widget
     /**
      * set collection object
      *
-     * @param Mage_Core_Model_Resource_Db_Collection_Abstract|Varien_Data_Collection|Varien_Data_Collection_Db $collection
+     * @param Mage_Core_Model_Resource_Db_Collection_Abstract<T>|Varien_Data_Collection<T>|Varien_Data_Collection_Db<T> $collection
      */
     public function setCollection($collection)
     {
@@ -339,7 +341,7 @@ class Mage_Adminhtml_Block_Widget_Grid extends Mage_Adminhtml_Block_Widget
     /**
      * get collection object
      *
-     * @return Mage_Core_Model_Resource_Db_Collection_Abstract|Varien_Data_Collection|Varien_Data_Collection_Db
+     * @return Mage_Core_Model_Resource_Db_Collection_Abstract<T>|Varien_Data_Collection<T>|Varien_Data_Collection_Db<T>
      */
     public function getCollection()
     {
@@ -1265,6 +1267,8 @@ class Mage_Adminhtml_Block_Widget_Grid extends Mage_Adminhtml_Block_Widget
 
     /**
      * Write item data to csv export file
+     *
+     * @param T $item
      */
     protected function _exportCsvItem(Varien_Object $item, Varien_Io_File $adapter)
     {
@@ -1428,6 +1432,7 @@ class Mage_Adminhtml_Block_Widget_Grid extends Mage_Adminhtml_Block_Widget
     /**
      * Write item data to Excel 2003 XML export file
      *
+     * @param T $item
      * @param Varien_Convert_Parser_Xml_Excel $parser
      */
     protected function _exportExcelItem(Varien_Object $item, Varien_Io_File $adapter, $parser = null)
@@ -1973,7 +1978,7 @@ class Mage_Adminhtml_Block_Widget_Grid extends Mage_Adminhtml_Block_Widget
     /**
      * Check whether should render cell
      *
-     * @param  Varien_Object                           $item
+     * @param  T                                       $item
      * @param  Mage_Adminhtml_Block_Widget_Grid_Column $column
      * @return bool
      */
@@ -1989,7 +1994,7 @@ class Mage_Adminhtml_Block_Widget_Grid extends Mage_Adminhtml_Block_Widget
     /**
      * Check whether you should render empty cell
      *
-     * @param  Varien_Object                           $item
+     * @param  T                                       $item
      * @param  Mage_Adminhtml_Block_Widget_Grid_Column $column
      * @return bool
      */
@@ -2033,7 +2038,7 @@ class Mage_Adminhtml_Block_Widget_Grid extends Mage_Adminhtml_Block_Widget
     /**
      * Return row url for js event handlers
      *
-     * @param  Varien_Object $row
+     * @param  T $row
      * @return string
      */
     public function getRowUrl($row)

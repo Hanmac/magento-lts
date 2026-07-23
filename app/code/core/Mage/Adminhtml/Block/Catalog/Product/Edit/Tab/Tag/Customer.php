@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method int getProductId()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Customer_Model_Customer>
  */
 class Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Tag_Customer extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -81,6 +82,9 @@ class Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Tag_Customer extends Mage_Ad
         return parent::_prepareColumns();
     }
 
+    /**
+     * @param Mage_Customer_Model_Customer $row
+     */
     #[Override]
     public function getRowUrl($row)
     {

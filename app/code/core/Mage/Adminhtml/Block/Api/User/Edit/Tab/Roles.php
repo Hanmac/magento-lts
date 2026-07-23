@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Api_Model_Resource_Role_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Api_Model_Role>
  */
 class Mage_Adminhtml_Block_Api_User_Edit_Tab_Roles extends Mage_Adminhtml_Block_Widget_Grid
 {

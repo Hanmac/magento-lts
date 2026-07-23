@@ -11,6 +11,7 @@
  * Adminhtml sales order's statuses grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sales_Model_Order_Status>
  */
 class Mage_Adminhtml_Block_Sales_Order_Status_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

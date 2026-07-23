@@ -9,6 +9,7 @@
 
 /**
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Eav_Model_Entity_Attribute_Set>
  */
 class Mage_Adminhtml_Block_Catalog_Product_Attribute_Set_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
