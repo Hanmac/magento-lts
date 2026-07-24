@@ -217,11 +217,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Api/Model/Wsdl/Config/Element.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Api2_Model_Acl_Global_Role) of method Mage_Api2_Block_Adminhtml_Roles_Tab_Users::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api2/Block/Adminhtml/Roles/Tab/Users.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $roleId (int) of method Mage_Api2_Model_Acl::addRole() should be compatible with parameter $role (string|Zend_Acl_Role_Interface) of method Zend_Acl::addRole()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Api2/Model/Acl.php',
@@ -1167,11 +1162,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/ImportExport/Block/Adminhtml/Export/Filter.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Index_Model_Process) of method Mage_Index_Block_Adminhtml_Process_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Index/Block/Adminhtml/Process/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $object (Mage_Index_Model_Event) of method Mage_Index_Model_Resource_Event::_afterSave() should be contravariant with parameter $object (Mage_Core_Model_Abstract) of method Mage_Core_Model_Resource_Db_Abstract::_afterSave()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Index/Model/Resource/Event.php',
@@ -1212,11 +1202,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Newsletter/Model/Subscriber.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Oauth_Model_Consumer) of method Mage_Oauth_Block_Adminhtml_Oauth_Consumer_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Oauth/Block/Adminhtml/Oauth/Consumer/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $value (string) of method Mage_Oauth_Model_Consumer_Validator_KeyLength::isValid() should be contravariant with parameter $value (mixed) of method Mage_Core_Model_Validate_Interface::isValid()',
     'count' => 2,
     'path' => __DIR__ . '/../app/code/core/Mage/Oauth/Model/Consumer/Validator/KeyLength.php',
@@ -1245,11 +1230,6 @@ $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $payment (Mage_Sales_Model_Order_Payment) of method Mage_Paygate_Model_Authorizenet::void() should be contravariant with parameter $payment (Varien_Object) of method Mage_Payment_Model_Method_Abstract::void()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Paygate/Model/Authorizenet.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Paypal_Model_Report_Settlement) of method Mage_Paypal_Block_Adminhtml_Settlement_Report_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Paypal/Block/Adminhtml/Settlement/Report/Grid.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $payment (Mage_Sales_Model_Order_Payment) of method Mage_Paypal_Model_Direct::acceptPayment() should be contravariant with parameter $payment (Mage_Payment_Model_Info) of method Mage_Payment_Model_Method_Abstract::acceptPayment()',

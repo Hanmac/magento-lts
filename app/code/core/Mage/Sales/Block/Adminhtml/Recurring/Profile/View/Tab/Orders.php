@@ -14,6 +14,7 @@
  *
  * @method bool  getSkipGenerateContent()
  * @method $this setSkipGenerateContent(bool $value)
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sales_Model_Order>
  */
 class Mage_Sales_Block_Adminhtml_Recurring_Profile_View_Tab_Orders extends Mage_Adminhtml_Block_Widget_Grid implements Mage_Adminhtml_Block_Widget_Tab_Interface
 {

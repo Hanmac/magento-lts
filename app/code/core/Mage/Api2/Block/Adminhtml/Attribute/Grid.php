@@ -11,6 +11,7 @@
  * API2 attributes grid block
  *
  * @package    Mage_Api2
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Varien_Object>
  */
 class Mage_Api2_Block_Adminhtml_Attribute_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

@@ -4667,11 +4667,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/ImportExport/Model/Import/Entity/Product/Type/Grouped.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Cannot call method removeItemByKey() on Varien_Data_Collection|null.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Index/Block/Adminhtml/Process/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Cannot call method getNode() on Mage_Core_Model_Config|null.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Index/Model/Lock.php',

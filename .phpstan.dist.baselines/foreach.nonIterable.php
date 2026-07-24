@@ -447,11 +447,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/ImportExport/Model/Import/Entity/Product/Type/Configurable.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Argument of an invalid type Varien_Data_Collection|null supplied for foreach, only iterables are supported.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Index/Block/Adminhtml/Process/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Argument of an invalid type array|string supplied for foreach, only iterables are supported.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Log/Model/Visitor.php',

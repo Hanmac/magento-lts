@@ -13,6 +13,7 @@
  * @package    Mage_Api2
  *
  * @method Varien_Data_Collection_Db getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Api2_Model_Acl_Global_Role>
  */
 class Mage_Api2_Block_Adminhtml_Permissions_User_Edit_Tab_Roles extends Mage_Adminhtml_Block_Widget_Grid implements Mage_Adminhtml_Block_Widget_Tab_Interface
 {
