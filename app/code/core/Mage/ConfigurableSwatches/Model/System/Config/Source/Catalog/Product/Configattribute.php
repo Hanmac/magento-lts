@@ -37,7 +37,7 @@ class Mage_ConfigurableSwatches_Model_System_Config_Source_Catalog_Product_Confi
                 ->setOrder('frontend_label', Varien_Data_Collection::SORT_ORDER_ASC);
 
             $this->_attributes = [];
-            /** @var Mage_Eav_Model_Attribute $attribute */
+            /** @var Mage_Catalog_Model_Entity_Attribute $attribute */
             foreach ($attrCollection as $attribute) {
                 $this->_attributes[] = [
                     'label' => $attribute->getFrontendLabel(),

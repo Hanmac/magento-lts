@@ -9,6 +9,7 @@
 
 /**
  * @package    Mage_Sales
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sales_Model_Recurring_Profile>
  */
 class Mage_Sales_Block_Adminhtml_Recurring_Profile_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

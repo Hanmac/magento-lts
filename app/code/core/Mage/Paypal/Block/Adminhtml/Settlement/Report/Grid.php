@@ -11,6 +11,7 @@
  * Adminhtml paypal settlement reports grid block
  *
  * @package    Mage_Paypal
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Paypal_Model_Report_Settlement_Row>
  */
 class Mage_Paypal_Block_Adminhtml_Settlement_Report_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -111,7 +112,7 @@ class Mage_Paypal_Block_Adminhtml_Settlement_Report_Grid extends Mage_Adminhtml_
 
     /**
      * @inheritDoc
-     * @param  Mage_Paypal_Model_Report_Settlement $row
+     * @param  Mage_Paypal_Model_Report_Settlement_Row $row
      * @throws Mage_Core_Exception
      */
     #[Override]

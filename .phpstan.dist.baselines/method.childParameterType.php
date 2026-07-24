@@ -217,11 +217,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Api/Model/Wsdl/Config/Element.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Api2_Model_Acl_Global_Role) of method Mage_Api2_Block_Adminhtml_Roles_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api2/Block/Adminhtml/Roles/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $row (Mage_Api2_Model_Acl_Global_Role) of method Mage_Api2_Block_Adminhtml_Roles_Tab_Users::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Api2/Block/Adminhtml/Roles/Tab/Users.php',
@@ -1512,11 +1507,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Sales/Block/Adminhtml/Billing/Agreement/Grid.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Sales_Model_Recurring_Profile) of method Mage_Sales_Block_Adminhtml_Recurring_Profile_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Sales/Block/Adminhtml/Recurring/Profile/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $value (float) of method Mage_Adminhtml_Block_Sales_Recurring_Profile_View_Items::formatPrice() should be contravariant with parameter $price (mixed) of method Mage_Adminhtml_Block_Sales_Items_Abstract::formatPrice()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Sales/Block/Adminhtml/Recurring/Profile/View/Items.php',
@@ -1800,11 +1790,6 @@ $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $object (Varien_Object) of method Mage_Weee_Model_Attribute_Backend_Weee_Tax::afterDelete() should be contravariant with parameter $object (object) of method Mage_Eav_Model_Entity_Attribute_Backend_Interface::afterDelete()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Weee/Model/Attribute/Backend/Weee/Tax.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Widget_Model_Widget_Instance) of method Mage_Widget_Block_Adminhtml_Widget_Instance_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Widget/Block/Adminhtml/Widget/Instance/Grid.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $object (Mage_Widget_Model_Widget_Instance) of method Mage_Widget_Model_Resource_Widget_Instance::_afterSave() should be contravariant with parameter $object (Mage_Core_Model_Abstract) of method Mage_Core_Model_Resource_Db_Abstract::_afterSave()',

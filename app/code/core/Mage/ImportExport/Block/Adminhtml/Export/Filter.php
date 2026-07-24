@@ -13,6 +13,7 @@
  * @package    Mage_ImportExport
  *
  * @method bool hasOperation()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Eav_Model_Entity_Attribute>
  */
 class Mage_ImportExport_Block_Adminhtml_Export_Filter extends Mage_Adminhtml_Block_Widget_Grid
 {

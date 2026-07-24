@@ -11,6 +11,7 @@
  * Adminhtml billing agreements grid
  *
  * @package    Mage_Sales
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sales_Model_Billing_Agreement>
  */
 class Mage_Sales_Block_Adminhtml_Billing_Agreement_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

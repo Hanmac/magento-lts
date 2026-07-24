@@ -11,6 +11,7 @@ use Mage_Adminhtml_Block_Widget_Grid_Massaction_Abstract as MassAction;
 
 /**
  * @package    Mage_Index
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Index_Model_Process>
  */
 class Mage_Index_Block_Adminhtml_Process_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -69,9 +70,9 @@ class Mage_Index_Block_Adminhtml_Process_Grid extends Mage_Adminhtml_Block_Widge
     protected function _afterLoadCollection()
     {
         /** @var Mage_Index_Model_Process $item */
-        foreach ($this->_collection as $key => $item) {
+        foreach ($this->getCollection() as $key => $item) {
             if (!$item->getIndexer()->isVisible()) {
-                $this->_collection->removeItemByKey($key);
+                $this->getCollection()->removeItemByKey($key);
                 continue;
             }
 

@@ -16,6 +16,7 @@
  * @method Mage_Api2_Model_Acl_Global_Role           getRole()
  * @method $this                                     setRole(Mage_Api2_Model_Acl_Global_Role $role)
  * @method $this                                     setUsers(array $users)
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Admin_Model_User>
  */
 class Mage_Api2_Block_Adminhtml_Roles_Tab_Users extends Mage_Adminhtml_Block_Widget_Grid implements Mage_Adminhtml_Block_Widget_Tab_Interface
 {
@@ -99,7 +100,7 @@ class Mage_Api2_Block_Adminhtml_Roles_Tab_Users extends Mage_Adminhtml_Block_Wid
 
     /**
      * @inheritDoc
-     * @param Mage_Api2_Model_Acl_Global_Role $row
+     * @param Mage_Admin_Model_User $row
      */
     #[Override]
     public function getRowUrl($row)

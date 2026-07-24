@@ -11,6 +11,7 @@
  * OAuth Consumer grid block
  *
  * @package    Mage_Oauth
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Oauth_Model_Consumer>
  */
 class Mage_Oauth_Block_Adminhtml_Oauth_Consumer_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
