@@ -132,11 +132,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Promo/Widget/Chooser/Sku.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Method Mage_Adminhtml_Block_Report_Grid_Abstract::getCollection() should return Varien_Data_Collection but returns Varien_Data_Collection|null.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Grid/Abstract.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Adminhtml_Block_Sales_Items_Column_Default::getCustomizedOptionValue() should return string but returns array<string, mixed>|string.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Items/Column/Default.php',

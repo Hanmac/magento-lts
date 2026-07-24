@@ -112,11 +112,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Category/Tabs.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $groupId of method Mage_Eav_Model_Resource_Entity_Attribute_Collection::setAttributeGroupFilter() expects int, int|string|null given.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Product/Attribute/Set/Main.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #2 $block of method Mage_Core_Block_Abstract::setChild() expects Mage_Core_Block_Abstract, Mage_Core_Block_Abstract|false given.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Options/Option.php',
@@ -398,11 +393,6 @@ $ignoreErrors[] = [
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Parameter #2 $block of method Mage_Core_Block_Abstract::setChild() expects Mage_Core_Block_Abstract, Mage_Core_Block_Abstract|false given.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Widget/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #2 $column of method Mage_Adminhtml_Block_Widget_Grid::addColumn() expects array, array|Varien_Object given.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Widget/Grid.php',
 ];

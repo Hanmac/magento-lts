@@ -9,6 +9,7 @@
 
 /**
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Adminhtml_Model_Report_Item>
  */
 class Mage_Adminhtml_Block_Report_Grid_Abstract extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -52,7 +53,7 @@ class Mage_Adminhtml_Block_Report_Grid_Abstract extends Mage_Adminhtml_Block_Wid
     }
 
     /**
-     * @return Mage_Reports_Model_Grouped_Collection|Varien_Data_Collection
+     * @return Varien_Data_Collection<Mage_Adminhtml_Model_Report_Item>
      */
     #[Override]
     public function getCollection()
@@ -62,7 +63,11 @@ class Mage_Adminhtml_Block_Report_Grid_Abstract extends Mage_Adminhtml_Block_Wid
             $this->setCollection($collection);
         }
 
-        return $this->_collection;
+        /**
+         * @var Varien_Data_Collection<Mage_Adminhtml_Model_Report_Item> $collection
+         */
+        $collection = $this->_collection;
+        return $collection;
     }
 
     /**
@@ -93,7 +98,7 @@ class Mage_Adminhtml_Block_Report_Grid_Abstract extends Mage_Adminhtml_Block_Wid
      *
      * @param  string                                    $columnId
      * @param  array                                     $column
-     * @return Mage_Adminhtml_Block_Report_Grid_Abstract
+     * @return $this
      * @throws Exception
      */
     #[Override]

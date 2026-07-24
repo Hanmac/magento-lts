@@ -37,11 +37,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Admin/Model/Resource/User.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Eav_Model_Entity_Attribute_Set) of method Mage_Adminhtml_Block_Catalog_Product_Attribute_Set_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Product/Attribute/Set/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $node (Varien_Data_Tree_Node) of method Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Categories::_getNodeJson() should be contravariant with parameter $node (array|Varien_Data_Tree_Node) of method Mage_Adminhtml_Block_Catalog_Category_Tree::_getNodeJson()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Categories.php',
@@ -62,64 +57,9 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Categories.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Catalog_Model_Product) of method Mage_Adminhtml_Block_Catalog_Product_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Product/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $index (null) of method Mage_Adminhtml_Block_Catalog_Product_Helper_Form_Price::getEscapedValue() should be contravariant with parameter $index (string|null) of method Varien_Data_Form_Element_Abstract::getEscapedValue()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Price.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_CatalogSearch_Model_Query) of method Mage_Adminhtml_Block_Catalog_Search_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Catalog/Search/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Checkout_Model_Agreement) of method Mage_Adminhtml_Block_Checkout_Agreement_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Checkout/Agreement/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Sales_Model_Order) of method Mage_Adminhtml_Block_Dashboard_Orders_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Dashboard/Orders/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_CatalogSearch_Model_Query) of method Mage_Adminhtml_Block_Dashboard_Searches_Last::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Dashboard/Searches/Last.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_CatalogSearch_Model_Query) of method Mage_Adminhtml_Block_Dashboard_Searches_Top::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Dashboard/Searches/Top.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Sales_Model_Order) of method Mage_Adminhtml_Block_Dashboard_Tab_Customers_Most::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Dashboard/Tab/Customers/Most.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Customer_Model_Customer) of method Mage_Adminhtml_Block_Dashboard_Tab_Customers_Newest::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Dashboard/Tab/Customers/Newest.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Catalog_Model_Product) of method Mage_Adminhtml_Block_Dashboard_Tab_Products_Ordered::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Dashboard/Tab/Products/Ordered.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Catalog_Model_Product) of method Mage_Adminhtml_Block_Dashboard_Tab_Products_Viewed::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Dashboard/Tab/Products/Viewed.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Newsletter_Model_Queue) of method Mage_Adminhtml_Block_Newsletter_Queue_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Newsletter/Queue/Grid.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $row (Mage_Newsletter_Model_Queue) of method Mage_Adminhtml_Block_Newsletter_Queue_Grid_Renderer_Action::render() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid_Column_Renderer_Action::render()',
@@ -132,11 +72,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Newsletter/Queue/Grid/Renderer/Action.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Newsletter_Model_Template) of method Mage_Adminhtml_Block_Newsletter_Template_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Newsletter/Template/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $row (Mage_Newsletter_Model_Template) of method Mage_Adminhtml_Block_Newsletter_Template_Grid_Renderer_Action::render() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid_Column_Renderer_Action::render()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Newsletter/Template/Grid/Renderer/Action.php',
@@ -147,94 +82,14 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Newsletter/Template/Grid/Renderer/Action.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Admin_Model_Block) of method Mage_Adminhtml_Block_Permissions_Block_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Permissions/Block/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Admin_Model_Role) of method Mage_Adminhtml_Block_Permissions_Grid_Role::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Permissions/Grid/Role.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Admin_Model_User) of method Mage_Adminhtml_Block_Permissions_User_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Permissions/User/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Admin_Model_Variable) of method Mage_Adminhtml_Block_Permissions_Variable_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Permissions/Variable/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_CatalogRule_Model_Rule) of method Mage_Adminhtml_Block_Promo_Catalog_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Promo/Catalog/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_SalesRule_Model_Coupon) of method Mage_Adminhtml_Block_Promo_Quote_Edit_Tab_Coupons_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Promo/Quote/Edit/Tab/Coupons/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_SalesRule_Model_Rule) of method Mage_Adminhtml_Block_Promo_Quote_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Promo/Quote/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $row (Mage_Rating_Model_Rating) of method Mage_Adminhtml_Block_Rating_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Rating/Grid.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Review_Model_Review) of method Mage_Adminhtml_Block_Report_Review_Customer_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Review/Customer/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Catalog_Model_Product) of method Mage_Adminhtml_Block_Report_Review_Product_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Review/Product/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $collection (Mage_SalesRule_Model_Resource_Report_Collection) of method Mage_Adminhtml_Block_Report_Sales_Coupons_Grid::_addCustomFilter() should be contravariant with parameter $collection (Mage_Sales_Model_Resource_Report_Collection_Abstract) of method Mage_Adminhtml_Block_Report_Grid_Abstract::_addCustomFilter()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Sales/Coupons/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_CatalogSearch_Model_Query) of method Mage_Adminhtml_Block_Report_Search_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Search/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Sales_Model_Quote) of method Mage_Adminhtml_Block_Report_Shopcart_Abandoned_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Shopcart/Abandoned/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Sales_Model_Quote) of method Mage_Adminhtml_Block_Report_Shopcart_Product_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Shopcart/Product/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Customer_Model_Customer) of method Mage_Adminhtml_Block_Report_Tag_Customer_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Tag/Customer/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Tag_Model_Tag) of method Mage_Adminhtml_Block_Report_Tag_Popular_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Tag/Popular/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Catalog_Model_Product) of method Mage_Adminhtml_Block_Report_Tag_Product_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Tag/Product/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Catalog_Model_Product) of method Mage_Adminhtml_Block_Review_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Review/Grid.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $row (Mage_Catalog_Model_Product) of method Mage_Adminhtml_Block_Review_Grid_Renderer_Type::render() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid_Column_Renderer_Abstract::render()',
@@ -300,36 +155,6 @@ $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $row (Mage_Sitemap_Model_Sitemap) of method Mage_Adminhtml_Block_Sitemap_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sitemap/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Customer_Model_Customer) of method Mage_Adminhtml_Block_Tag_Customer_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Tag/Customer/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Catalog_Model_Product) of method Mage_Adminhtml_Block_Tag_Product_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Tag/Product/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Tag_Model_Tag) of method Mage_Adminhtml_Block_Tag_Tag_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Tag/Tag/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Tax_Model_Class) of method Mage_Adminhtml_Block_Tax_Class_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Tax/Class/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Tax_Model_Calculation_Rate) of method Mage_Adminhtml_Block_Tax_Rate_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Tax/Rate/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Tax_Model_Calculation_Rule) of method Mage_Adminhtml_Block_Tax_Rule_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Tax/Rule/Grid.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $row (Mage_Core_Model_Url_Rewrite) of method Mage_Adminhtml_Block_Urlrewrite_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',

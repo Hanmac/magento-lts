@@ -10,7 +10,8 @@
 /**
  * @package    Mage_Adminhtml
  *
- * @method Varien_Data_Collection_Db getCollection()
+ * @method Mage_Admin_Model_Resource_Role_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Admin_Model_Role>
  */
 class Mage_Adminhtml_Block_Permissions_User_Edit_Tab_Roles extends Mage_Adminhtml_Block_Widget_Grid
 {

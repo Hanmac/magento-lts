@@ -11,6 +11,7 @@
  * Adminhtml wishlist report grid block
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Wishlist_Model_Wishlist>
  */
 class Mage_Adminhtml_Block_Report_Wishlist_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

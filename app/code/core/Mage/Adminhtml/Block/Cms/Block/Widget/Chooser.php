@@ -18,6 +18,7 @@
  * @method $this                     setConfig(array $value)
  * @method $this                     setFieldsetId(int $value)
  * @method $this                     setTranslationHelper(Mage_Core_Helper_Abstract $value)
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Cms_Model_Block>
  */
 class Mage_Adminhtml_Block_Cms_Block_Widget_Chooser extends Mage_Adminhtml_Block_Widget_Grid
 {

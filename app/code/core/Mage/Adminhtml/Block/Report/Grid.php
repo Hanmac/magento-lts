@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Reports_Model_Resource_Report_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Reports_model_Report>
  */
 class Mage_Adminhtml_Block_Report_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -523,7 +524,7 @@ class Mage_Adminhtml_Block_Report_Grid extends Mage_Adminhtml_Block_Widget_Grid
     /**
      * Retrieve grid as Excel Xml
      *
-     * @return mixed
+     * @return string
      * @throws Exception
      * @throws Zend_Date_Exception
      */

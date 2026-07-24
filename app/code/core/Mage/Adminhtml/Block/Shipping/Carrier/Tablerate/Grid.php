@@ -12,6 +12,7 @@
  * WARNING: This grid used for export table rates
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Shipping_Model_Carrier_Tablerate>
  */
 class Mage_Adminhtml_Block_Shipping_Carrier_Tablerate_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

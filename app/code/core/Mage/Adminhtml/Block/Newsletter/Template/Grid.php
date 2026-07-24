@@ -11,6 +11,7 @@
  * Adminhtml newsletter templates grid block
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Newsletter_Model_Template>
  */
 class Mage_Adminhtml_Block_Newsletter_Template_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

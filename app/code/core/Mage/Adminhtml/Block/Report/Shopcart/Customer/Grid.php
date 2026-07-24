@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Reports_Model_Resource_Customer_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Report_Grid_Shopcart<Mage_Customer_Model_Customer>
  */
 class Mage_Adminhtml_Block_Report_Shopcart_Customer_Grid extends Mage_Adminhtml_Block_Report_Grid_Shopcart
 {

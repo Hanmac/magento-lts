@@ -54,7 +54,7 @@ class Mage_Adminhtml_Block_Widget_Grid_Column extends Mage_Adminhtml_Block_Widge
     protected $_cssClass = null;
 
     /**
-     * @param  Mage_Adminhtml_Block_Widget_Grid $grid
+     * @param  Mage_Adminhtml_Block_Widget_Grid<Varien_Object> $grid
      * @return $this
      */
     public function setGrid($grid)
@@ -66,7 +66,7 @@ class Mage_Adminhtml_Block_Widget_Grid_Column extends Mage_Adminhtml_Block_Widge
     }
 
     /**
-     * @return Mage_Adminhtml_Block_Widget_Grid
+     * @return Mage_Adminhtml_Block_Widget_Grid<Varien_Object>
      */
     public function getGrid()
     {

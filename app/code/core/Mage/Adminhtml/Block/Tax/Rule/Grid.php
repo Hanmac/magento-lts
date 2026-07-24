@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Tax_Model_Resource_Calculation_Rule_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Tax_Model_Calculation_Rule>
  */
 class Mage_Adminhtml_Block_Tax_Rule_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

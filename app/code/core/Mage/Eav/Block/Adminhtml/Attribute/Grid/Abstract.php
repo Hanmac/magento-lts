@@ -9,7 +9,7 @@
 
 /**
  * Product attributes grid
- * @template T of Mage_Catalog_Model_Resource_Eav_Attribute
+ * @template T of Mage_Eav_Model_Entity_Attribute
  * @package    Mage_Adminhtml
  * @extends Mage_Adminhtml_Block_Widget_Grid<T>
  */

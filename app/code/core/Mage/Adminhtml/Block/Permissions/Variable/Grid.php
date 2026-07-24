@@ -11,6 +11,7 @@
  * Adminhtml permissions variable grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Admin_Model_Variable>
  */
 class Mage_Adminhtml_Block_Permissions_Variable_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

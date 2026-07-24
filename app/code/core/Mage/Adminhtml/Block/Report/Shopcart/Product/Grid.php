@@ -11,6 +11,7 @@
  * Adminhtml products in carts report grid block
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Report_Grid_Shopcart<Mage_Sales_Model_Quote>
  */
 class Mage_Adminhtml_Block_Report_Shopcart_Product_Grid extends Mage_Adminhtml_Block_Report_Grid_Shopcart
 {

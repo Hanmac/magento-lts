@@ -11,6 +11,7 @@
  * CMS page chooser for Wysiwyg CMS widget
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Cms_Model_Page>
  */
 class Mage_Adminhtml_Block_Cms_Page_Widget_Chooser extends Mage_Adminhtml_Block_Widget_Grid
 {

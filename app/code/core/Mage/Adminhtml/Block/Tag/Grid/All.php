@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Tag_Model_Resource_Tag_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Tag_Model_Tag>
  */
 class Mage_Adminhtml_Block_Tag_Grid_All extends Mage_Adminhtml_Block_Widget_Grid
 {
@@ -92,7 +93,7 @@ class Mage_Adminhtml_Block_Tag_Grid_All extends Mage_Adminhtml_Block_Widget_Grid
     }
 
     /**
-     * @param  Varien_Object $row
+     * @param  Mage_Tag_Model_Tag $row
      * @return string
      */
     #[Override]

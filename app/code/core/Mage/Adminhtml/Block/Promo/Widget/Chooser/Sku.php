@@ -17,6 +17,7 @@
  * @method string                                         getJsFormObject()
  * @method $this                                          setIsCollapsed(bool $value)
  * @method $this                                          setJsFormObject(string $value)
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Catalog_Model_Product>
  */
 class Mage_Adminhtml_Block_Promo_Widget_Chooser_Sku extends Mage_Adminhtml_Block_Widget_Grid
 {

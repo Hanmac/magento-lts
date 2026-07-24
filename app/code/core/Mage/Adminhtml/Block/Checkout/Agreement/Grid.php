@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Checkout_Model_Resource_Agreement_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Checkout_Model_Agreement>
  */
 class Mage_Adminhtml_Block_Checkout_Agreement_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

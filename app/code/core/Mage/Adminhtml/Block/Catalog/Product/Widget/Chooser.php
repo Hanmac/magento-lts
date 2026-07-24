@@ -25,6 +25,7 @@
  * @method $this                                          setProductTypeId(int $value)
  * @method $this                                          setTranslationHelper(Mage_Core_Helper_Abstract $value)
  * @method $this                                          setUseMassaction(bool $value)
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Catalog_Model_Product>
  */
 class Mage_Adminhtml_Block_Catalog_Product_Widget_Chooser extends Mage_Adminhtml_Block_Widget_Grid
 {

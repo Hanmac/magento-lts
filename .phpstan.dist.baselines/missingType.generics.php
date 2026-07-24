@@ -12,19 +12,9 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Admin/Model/Resource/Acl/Role/Collection.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Admin_Model_Resource_Block_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Admin/Model/Resource/Block/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Class Mage_Admin_Model_Resource_Permissions_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Admin/Model/Resource/Permissions/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Admin_Model_Resource_Roles_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Admin/Model/Resource/Roles/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Class Mage_Admin_Model_Resource_Roles_User_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
@@ -35,26 +25,6 @@ $ignoreErrors[] = [
     'rawMessage' => 'Class Mage_AdminNotification_Model_Resource_Inbox_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/AdminNotification/Model/Resource/Inbox/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Property Mage_Adminhtml_Block_Dashboard_Searches_Last::$_collection with generic class Varien_Data_Collection does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Dashboard/Searches/Last.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Property Mage_Adminhtml_Block_Dashboard_Searches_Top::$_collection with generic class Varien_Data_Collection does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Dashboard/Searches/Top.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'PHPDoc tag @method for method Mage_Adminhtml_Block_Permissions_User_Edit_Tab_Roles::getCollection() return type contains generic class Varien_Data_Collection_Db but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Permissions/User/Edit/Tab/Roles.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Method Mage_Adminhtml_Block_Report_Grid_Abstract::getCollection() return type with generic class Varien_Data_Collection does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Grid/Abstract.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Adminhtml_Block_Sales_Order_Create_Form_Abstract::_addAttributesToForm() has parameter $attributes with generic class Varien_Data_Collection but does not specify its types: T',

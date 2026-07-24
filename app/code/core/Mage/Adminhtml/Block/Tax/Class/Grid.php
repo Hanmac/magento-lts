@@ -13,6 +13,7 @@
  * @package    Mage_Adminhtml
  *
  * @method string getClassType()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Tax_Model_Class>
  */
 class Mage_Adminhtml_Block_Tax_Class_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

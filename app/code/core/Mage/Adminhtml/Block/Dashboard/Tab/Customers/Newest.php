@@ -11,6 +11,7 @@
  * Adminhtml dashboard most recent customers grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Dashboard_Grid<Mage_Customer_Model_Customer>
  */
 class Mage_Adminhtml_Block_Dashboard_Tab_Customers_Newest extends Mage_Adminhtml_Block_Dashboard_Grid
 {

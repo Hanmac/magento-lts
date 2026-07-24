@@ -11,6 +11,7 @@
  * @package    Mage_Adminhtml
  *
  * @method Mage_Tax_Model_Resource_Calculation_Rate_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Tax_Model_Calculation_Rate>
  */
 class Mage_Adminhtml_Block_Tax_Rate_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

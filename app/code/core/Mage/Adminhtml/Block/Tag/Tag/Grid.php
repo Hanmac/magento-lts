@@ -15,6 +15,7 @@ use Mage_Adminhtml_Block_Widget_Grid_Massaction_Abstract as MassAction;
  * @package    Mage_Adminhtml
  *
  * @method Mage_Tag_Model_Resource_Tag_Collection getCollection()
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Tag_Model_Tag>
  */
 class Mage_Adminhtml_Block_Tag_Tag_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {

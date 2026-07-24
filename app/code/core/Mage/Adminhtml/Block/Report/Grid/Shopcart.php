@@ -11,6 +11,8 @@
  * Adminhtml shopping carts report grid block
  *
  * @package    Mage_Adminhtml
+ * @template T of Varien_Object
+ * @extends Mage_Adminhtml_Block_Widget_Grid<T>
  */
 class Mage_Adminhtml_Block_Report_Grid_Shopcart extends Mage_Adminhtml_Block_Widget_Grid
 {

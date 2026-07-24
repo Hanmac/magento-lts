@@ -11,7 +11,7 @@
  * Adminhtml dashboard most ordered products grid
  *
  * @package    Mage_Adminhtml
- * @extends Mage_Adminhtml_Block_Dashboard_Grid<>
+ * @extends Mage_Adminhtml_Block_Dashboard_Grid<Mage_Adminhtml_Model_Report_Item>
  */
 class Mage_Adminhtml_Block_Dashboard_Tab_Products_Ordered extends Mage_Adminhtml_Block_Dashboard_Grid
 {
@@ -96,7 +96,7 @@ class Mage_Adminhtml_Block_Dashboard_Tab_Products_Ordered extends Mage_Adminhtml
      * $row is bestseller row wrapped in Product model
      *
      * @inheritDoc
-     * @param  Mage_Catalog_Model_Product $row
+     * @param  Mage_Adminhtml_Model_Report_Item $row
      * @throws Exception
      */
     #[Override]

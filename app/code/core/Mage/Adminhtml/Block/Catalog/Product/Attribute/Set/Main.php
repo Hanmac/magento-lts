@@ -191,7 +191,7 @@ class Mage_Adminhtml_Block_Catalog_Product_Attribute_Set_Main extends Mage_Admin
             $item['allowDrag']  = true;
 
             $nodeChildren = Mage::getResourceModel('catalog/product_attribute_collection')
-                ->setAttributeGroupFilter($node->getId())
+                ->setAttributeGroupFilter((int)$node->getId())
                 ->addVisibleFilter()
                 ->checkConfigurableProducts()
                 ->load();
@@ -199,7 +199,7 @@ class Mage_Adminhtml_Block_Catalog_Product_Attribute_Set_Main extends Mage_Admin
             if ($nodeChildren->getSize() > 0) {
                 $item['children'] = [];
                 foreach ($nodeChildren->getItems() as $child) {
-                    /** @var Mage_Eav_Model_Entity_Attribute $child */
+                    /** @var Mage_Catalog_Model_Entity_Attribute $child */
                     $attr = [
                         'text'              => $child->getAttributeCode(),
                         'id'                => $child->getAttributeId(),
@@ -237,7 +237,7 @@ class Mage_Adminhtml_Block_Catalog_Product_Attribute_Set_Main extends Mage_Admin
             ->load();
 
         $attributesIds = ['0'];
-        /** @var Mage_Eav_Model_Entity_Attribute $item */
+        /** @var Mage_Catalog_Model_Entity_Attribute $item */
         foreach ($collection->getItems() as $item) {
             $attributesIds[] = $item->getAttributeId();
         }

@@ -11,6 +11,7 @@
  * Sitemaps grid
  *
  * @package    Mage_Adminhtml
+ * @extends Mage_Adminhtml_Block_Widget_Grid<Mage_Sitemap_Model_Sitemap>
  */
 class Mage_Adminhtml_Block_Sitemap_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
