@@ -147,11 +147,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Comment.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Method Mage_Adminhtml_Block_Sales_Order_Create_Customer_Grid::getRowUrl() should return string but returns int|string|null.',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Customer/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Adminhtml_Block_Sales_Order_Create_Data::getCurrencyName() should return string but returns string|null.',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Data.php',

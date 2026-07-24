@@ -106,7 +106,7 @@ class Mage_Adminhtml_Block_Sales_Order_Create_Customer_Grid extends Mage_Adminht
     #[Override]
     public function getRowId($row)
     {
-        return $row->getId();
+        return (string) $row->getId();
     }
 
     /**

@@ -82,11 +82,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Newsletter/Template/Grid/Renderer/Action.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Rating_Model_Rating) of method Mage_Adminhtml_Block_Rating_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Rating/Grid.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $collection (Mage_SalesRule_Model_Resource_Report_Collection) of method Mage_Adminhtml_Block_Report_Sales_Coupons_Grid::_addCustomFilter() should be contravariant with parameter $collection (Mage_Sales_Model_Resource_Report_Collection_Abstract) of method Mage_Adminhtml_Block_Report_Grid_Abstract::_addCustomFilter()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Report/Sales/Coupons/Grid.php',
@@ -150,16 +145,6 @@ $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $row (Mage_Sales_Model_Order) of method Mage_Adminhtml_Block_Sales_Reorder_Renderer_Action::render() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid_Column_Renderer_Interface::render()',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Reorder/Renderer/Action.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Sitemap_Model_Sitemap) of method Mage_Adminhtml_Block_Sitemap_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sitemap/Grid.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Parameter #1 $row (Mage_Core_Model_Url_Rewrite) of method Mage_Adminhtml_Block_Urlrewrite_Grid::getRowUrl() should be contravariant with parameter $row (Varien_Object) of method Mage_Adminhtml_Block_Widget_Grid::getRowUrl()',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Urlrewrite/Grid.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Parameter #1 $column (Mage_Adminhtml_Block_Widget_Grid_Column) of method Mage_Adminhtml_Block_Widget_Grid_Column_Filter_Abstract::setColumn() should be contravariant with parameter $column (mixed) of method Mage_Adminhtml_Block_Widget_Grid_Column_Filter_Interface::setColumn()',

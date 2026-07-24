@@ -11,6 +11,7 @@
  * Log Prepare Online visitors resource
  *
  * @package    Mage_Log
+ * @extends Mage_Core_Model_Resource_Db_Abstract<Mage_Log_Model_Visitor_Online>
  */
 class Mage_Log_Model_Resource_Visitor_Online extends Mage_Core_Model_Resource_Db_Abstract
 {

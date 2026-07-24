@@ -7,26 +7,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/Mage.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Admin_Model_Resource_Acl_Role_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Admin/Model/Resource/Acl/Role/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Admin_Model_Resource_Permissions_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Admin/Model/Resource/Permissions/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Admin_Model_Resource_Roles_User_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Admin/Model/Resource/Roles/User/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_AdminNotification_Model_Resource_Inbox_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/AdminNotification/Model/Resource/Inbox/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Adminhtml_Block_Sales_Order_Create_Form_Abstract::_addAttributesToForm() has parameter $attributes with generic class Varien_Data_Collection but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Form/Abstract.php',
@@ -57,36 +37,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Adminhtml/Helper/Dashboard/Abstract.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Api_Model_Resource_Acl_Role_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api/Model/Resource/Acl/Role/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Api_Model_Resource_Permissions_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api/Model/Resource/Permissions/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Api_Model_Resource_Role_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api/Model/Resource/Role/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Api_Model_Resource_Roles_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api/Model/Resource/Roles/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Api_Model_Resource_Roles_User_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api/Model/Resource/Roles/User/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Api_Model_Resource_Rules_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api/Model/Resource/Rules/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'PHPDoc tag @method for method Mage_Api2_Block_Adminhtml_Permissions_User_Edit_Tab_Roles::getCollection() return type contains generic class Varien_Data_Collection_Db but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Api2/Block/Adminhtml/Permissions/User/Edit/Tab/Roles.php',
@@ -100,21 +50,6 @@ $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Api2_Model_Resource::_applyFilter() has parameter $collection with generic class Varien_Data_Collection_Db but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Api2/Model/Resource.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Api2_Model_Resource_Acl_Filter_Attribute_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api2/Model/Resource/Acl/Filter/Attribute/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Api2_Model_Resource_Acl_Global_Role_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api2/Model/Resource/Acl/Global/Role/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Api2_Model_Resource_Acl_Global_Rule_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Api2/Model/Resource/Acl/Global/Rule/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'PHPDoc tag @var for variable $chainForOneField contains generic class ArrayObject but does not specify its types: TKey, TValue',
@@ -222,11 +157,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Catalog/Model/Resource/Category/Flat.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Catalog_Model_Resource_Category_Flat_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Catalog/Model/Resource/Category/Flat/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Catalog_Model_Resource_Collection_Abstract::_joinAttributeToSelect() return type with generic class Mage_Eav_Model_Entity_Collection_Abstract does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Catalog/Model/Resource/Collection/Abstract.php',
@@ -235,26 +165,6 @@ $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Catalog_Model_Resource_Product_Collection::addCountToCategories() has parameter $categoryCollection with generic class Mage_Eav_Model_Entity_Collection_Abstract but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Catalog/Model/Resource/Product/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Catalog_Model_Resource_Product_Link_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Catalog/Model/Resource/Product/Link/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Catalog_Model_Resource_Product_Option_Value_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Catalog/Model/Resource/Product/Option/Value/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_CatalogInventory_Model_Resource_Stock_Item_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/CatalogInventory/Model/Resource/Stock/Item/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_CatalogRule_Model_Resource_Rule_Product_Price_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/CatalogRule/Model/Resource/Rule/Product/Price/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_CatalogSearch_Block_Advanced_Form::getSearchableAttributes() return type with generic class Varien_Data_Collection_Db does not specify its types: T',
@@ -277,19 +187,9 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/CatalogSearch/Model/Query.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_CatalogSearch_Model_Resource_Query_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/CatalogSearch/Model/Resource/Query/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_CatalogSearch_Model_Resource_Search_Collection::_getAttributesCollection() return type with generic class Varien_Data_Collection_Db does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/CatalogSearch/Model/Resource/Search/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Checkout_Model_Resource_Agreement_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Checkout/Model/Resource/Agreement/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Cms_Helper_Page::getValidateConfigErrorMessage() has parameter $isUsedInConfig with generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
@@ -302,19 +202,9 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Cms/Model/Page.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Cms_Model_Resource_Block_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Cms/Model/Resource/Block/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Cms_Model_Resource_Page::getUsedInStoreConfigCollection() return type with generic class Mage_Core_Model_Resource_Db_Collection_Abstract does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Cms/Model/Resource/Page.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Cms_Model_Resource_Page_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Cms/Model/Resource/Page/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_ConfigurableSwatches_Block_Catalog_Product_List_Price::getProducts() return type with generic class Mage_Eav_Model_Entity_Collection_Abstract does not specify its types: T',
@@ -357,84 +247,14 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Core/Model/Config.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Core_Model_Resource_Config_Data_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Core/Model/Resource/Config/Data/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Property Mage_Core_Model_Resource_Db_Collection_Abstract::$_resource with generic class Mage_Core_Model_Resource_Db_Collection_Abstract does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Core/Model/Resource/Db/Collection/Abstract.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Core_Model_Resource_Design_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Core/Model/Resource/Design/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Core_Model_Resource_Email_Queue_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Core/Model/Resource/Email/Queue/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Core_Model_Resource_Email_Template_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Core/Model/Resource/Email/Template/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Core_Model_Resource_Language_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Core/Model/Resource/Language/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Core_Model_Resource_Url_Rewrite_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Core/Model/Resource/Url/Rewrite/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Core_Model_Resource_Variable_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Core/Model/Resource/Variable/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Cron_Model_Resource_Schedule_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Cron/Model/Resource/Schedule/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Customer_Model_Resource_Flowpassword_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Customer/Model/Resource/Flowpassword/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Class Mage_Customer_Model_Resource_Wishlist_Collection extends generic class Mage_Eav_Model_Entity_Collection_Abstract but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Customer/Model/Resource/Wishlist/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Dataflow_Model_Resource_Batch_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Dataflow/Model/Resource/Batch/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Dataflow_Model_Resource_Import_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Dataflow/Model/Resource/Import/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Dataflow_Model_Resource_Profile_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Dataflow/Model/Resource/Profile/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Dataflow_Model_Resource_Profile_History_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Dataflow/Model/Resource/Profile/History/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Directory_Model_Resource_Currency_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Directory/Model/Resource/Currency/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Eav_Model_Entity_Attribute_Source_Abstract::addValueSortToCollection() has parameter $collection with generic class Mage_Eav_Model_Entity_Collection_Abstract but does not specify its types: T',
@@ -452,54 +272,9 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Entity/Collection.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Eav_Model_Resource_Entity_Attribute_Group_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Resource/Entity/Attribute/Group/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Eav_Model_Resource_Entity_Attribute_Option::addOptionValueToCollection() has parameter $collection with generic class Mage_Eav_Model_Entity_Collection_Abstract but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Resource/Entity/Attribute/Option.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Eav_Model_Resource_Entity_Attribute_Option_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Resource/Entity/Attribute/Option/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Eav_Model_Resource_Entity_Attribute_Set_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Resource/Entity/Attribute/Set/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Eav_Model_Resource_Entity_Type_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Resource/Entity/Type/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Eav_Model_Resource_Form_Attribute_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Resource/Form/Attribute/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Eav_Model_Resource_Form_Element_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Resource/Form/Element/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Eav_Model_Resource_Form_Fieldset_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Resource/Form/Fieldset/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Eav_Model_Resource_Form_Type_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Eav/Model/Resource/Form/Type/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_GiftMessage_Model_Resource_Message_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/GiftMessage/Model/Resource/Message/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Property Mage_ImportExport_Block_Adminhtml_Export_Filter::$_collection with generic class Varien_Data_Collection does not specify its types: T',
@@ -537,44 +312,14 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/ImportExport/Model/Resource/Import/Data.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Index_Model_Resource_Event_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Index/Model/Resource/Event/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Log_Model_Resource_Visitor_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Log/Model/Resource/Visitor/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Log_Model_Resource_Visitor_Collection::load() return type with generic class Mage_Core_Model_Resource_Db_Collection_Abstract does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Log/Model/Resource/Visitor/Collection.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Log_Model_Resource_Visitor_Online_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Log/Model/Resource/Visitor/Online/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Log_Model_Resource_Visitor_Online_Collection::addFieldToFilter() return type with generic class Mage_Core_Model_Resource_Db_Collection_Abstract does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Log/Model/Resource/Visitor/Online/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Newsletter_Model_Resource_Queue_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Newsletter/Model/Resource/Queue/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Newsletter_Model_Resource_Subscriber_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Newsletter/Model/Resource/Subscriber/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Newsletter_Model_Resource_Template_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Newsletter/Model/Resource/Template/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Page_Block_Html_Pager::getCollection() return type with generic class Mage_Core_Model_Resource_Db_Collection_Abstract does not specify its types: T',
@@ -585,36 +330,6 @@ $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Page_Block_Html_Pager::setCollection() has parameter $collection with generic class Varien_Data_Collection but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Page/Block/Html/Pager.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Paygate_Model_Resource_Authorizenet_Debug_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Paygate/Model/Resource/Authorizenet/Debug/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Paypal_Model_Resource_Payment_Transaction_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Paypal/Model/Resource/Payment/Transaction/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Paypal_Model_Resource_Report_Settlement_Row_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Paypal/Model/Resource/Report/Settlement/Row/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_ProductAlert_Model_Resource_Price_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/ProductAlert/Model/Resource/Price/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_ProductAlert_Model_Resource_Stock_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/ProductAlert/Model/Resource/Stock/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Rating_Model_Resource_Rating_Option_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Rating/Model/Resource/Rating/Option/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Reports_Helper_Data::prepareIntervalsCollection() has parameter $collection with generic class Varien_Data_Collection but does not specify its types: T',
@@ -652,34 +367,9 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Reports/Model/Resource/Event.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Reports_Model_Resource_Event_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Reports/Model/Resource/Event/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Reports_Model_Resource_Event_Type_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Reports/Model/Resource/Event/Type/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Class Mage_Reports_Model_Resource_Report_Collection extends generic class Varien_Data_Collection but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Reports/Model/Resource/Report/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Reports_Model_Resource_Report_Collection_Abstract extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Reports/Model/Resource/Report/Collection/Abstract.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Reports_Model_Resource_Wishlist_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Reports/Model/Resource/Wishlist/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Review_Model_Resource_Review_Status_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Review/Model/Resource/Review/Status/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Class Mage_Review_Model_Resource_Review_Summary_Collection extends generic class Varien_Data_Collection_Db but does not specify its types: T',
@@ -842,16 +532,6 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Sales/Model/Resource/Order/Collection.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Sales_Model_Resource_Order_Tax_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Sales/Model/Resource/Order/Tax/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Sales_Model_Resource_Quote_Item_Option_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Sales/Model/Resource/Quote/Item/Option/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Sales_Model_Resource_Quote_Payment_Collection::_afterLoad() return type with generic class Mage_Core_Model_Resource_Db_Collection_Abstract does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Sales/Model/Resource/Quote/Payment/Collection.php',
@@ -862,54 +542,14 @@ $ignoreErrors[] = [
     'path' => __DIR__ . '/../app/code/core/Mage/Sales/Model/Resource/Sale/Collection.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_SalesRule_Model_Resource_Coupon_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/SalesRule/Model/Resource/Coupon/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_SalesRule_Model_Resource_Coupon_Collection::addIsUsedFilterCallback() has parameter $collection with generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/SalesRule/Model/Resource/Coupon/Collection.php',
 ];
 $ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Shipping_Model_Resource_Carrier_Tablerate_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Shipping/Model/Resource/Carrier/Tablerate/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Sitemap_Model_Resource_Sitemap_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Sitemap/Model/Resource/Sitemap/Collection.php',
-];
-$ignoreErrors[] = [
     'rawMessage' => 'Method Mage_Tag_Model_Entity_Customer_Collection::load() return type with generic class Mage_Eav_Model_Entity_Collection_Abstract does not specify its types: T',
     'count' => 1,
     'path' => __DIR__ . '/../app/code/core/Mage/Tag/Model/Entity/Customer/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Tag_Model_Resource_Popular_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Tag/Model/Resource/Popular/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Tag_Model_Resource_Tag_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Tag/Model/Resource/Tag/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Tax_Model_Resource_Sales_Order_Tax_Item_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Tax/Model/Resource/Sales/Order/Tax/Item/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Widget_Model_Resource_Widget_Instance_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Widget/Model/Resource/Widget/Instance/Collection.php',
-];
-$ignoreErrors[] = [
-    'rawMessage' => 'Class Mage_Wishlist_Model_Resource_Item_Option_Collection extends generic class Mage_Core_Model_Resource_Db_Collection_Abstract but does not specify its types: T',
-    'count' => 1,
-    'path' => __DIR__ . '/../app/code/core/Mage/Wishlist/Model/Resource/Item/Option/Collection.php',
 ];
 $ignoreErrors[] = [
     'rawMessage' => 'Class Varien_Data_Collection_Filesystem extends generic class Varien_Data_Collection but does not specify its types: T',
